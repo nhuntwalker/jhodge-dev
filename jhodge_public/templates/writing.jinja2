@@ -1,0 +1,66 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+<main>
+    <section id="content">
+        <div class="item-writing">
+            <div class="writing-thumb">
+                <img src="{{ request.static_path('jhodge_public:static/MEDIA/first_book_cover.jpg') }}" />
+                <div class="writing-hover">
+                    <a href="writing-single.html">
+                        Read
+                    </a>
+                </div>
+            </div>
+            <a href="writing-single.html">
+                <div class="writing-item-description">
+                    <h2>The Girl in the Doll's Dress</h2>
+                    <span class="media-meta date">
+                        May 30, 2016
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <div class="item-writing">
+            <div class="writing-thumb">
+                <img src="{{ request.static_path('jhodge_public:static/MEDIA/first_book_cover.jpg') }}" />
+                <div class="writing-hover">
+                    <a href="writing-single.html">
+                        Read
+                    </a>
+                </div>
+            </div>
+            <a href="writing-single.html">
+                <div class="writing-item-description">
+                    <h2>The Girl in the Doll's Dress</h2>
+                    <span class="media-meta date">
+                        May 30, 2016
+                    </span>
+                </div>
+            </a>
+        </div>
+        <div class="item-writing">
+            <div class="writing-thumb">
+                <img src="{{ request.static_path('jhodge_public:static/MEDIA/first_book_cover.jpg') }}" />
+                <div class="writing-hover">
+                    <a href="writing-single.html">
+                        Read
+                    </a>
+                </div>
+            </div>
+            <a href="writing-single.html">
+                <div class="writing-item-description">
+                    <h2>The Girl in the Doll's Dress</h2>
+                    <span class="media-meta date">
+                        May 30, 2016
+                    </span>
+                </div>
+            </a>
+        </div>
+    </section>
+</main>
+{% endblock content %}
+{% block specific_scripts %}
+<script src="{{ request.static_path('jhodge_public:static/js/writing_effects.js') }}"></script>
+{% endblock specific_scripts %}

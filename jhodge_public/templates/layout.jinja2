@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"/>
+        <link rel="stylesheet" href="{{ request.static_path('jhodge_public:static/css/reset.css') }}" type="text/css" />
+        <script src="https://use.fontawesome.com/4d0cb8d848.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+        <link rel="stylesheet" href="{{ request.static_path('jhodge_public:static/css/style.css')}}" type="text/css" />
+    </head>
+    <body>
+        <nav class="sticky-menu">
+            <ul id="top-menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="film.html"><li>Film</li></a>
+                <a href="writing.html"><li>Writing</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+            </ul>
+            <ul id="social-media">
+                <li><a href="http://www.facebook.com"><i class="fa fa-facebook-official"></i></a></li>
+                <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="http://www.imdb.com"><img src="{{ request.static_path('jhodge_public:static/STATIC_FILES/imdb-bw.png') }}" /></a></li>
+                <li><a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </nav>
+        {% block content%}{% endblock content%}
+        <footer>
+            <p id="copyright">Copyright 2016 &copy; Jamal Hodge, jamalhodge.com</p>
+        </footer>
+        {% block specific_scripts %}{% endblock specific_scripts %}
+    </body>
+</html>

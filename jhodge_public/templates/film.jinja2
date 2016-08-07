@@ -1,0 +1,95 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+<main>
+    <section id="content">
+        <div class="row film">
+            <div class="film-still">
+                <a href="film-single.html">
+                    <img src="{{ request.static_path('jhodge_public:static/MEDIA/the_kind_ones_screenshot.jpg') }}" />
+                    <div class="video-btn">
+                        <img src="{{ request.static_path('jhodge_public:static/STATIC/video-play-button.png') }}" />
+                    </div>
+                </a>
+            </div>
+            <a href="film-single.html">
+                <div class="film-list-description">
+                    <h2>The Kind Ones</h2>
+                    <div class="horizontal-bar white"></div>
+                    <div class="media-meta full">
+                        <ul>
+                            <li>May 30, 2016</li>
+                            <li>Director</li>
+                            <li>Primal Links Media</li>
+                        </ul>
+                    </div>
+                    <div class="film-excerpt">
+                        <p>
+                            This is my website. There are many like it, but this one is...
+                        </p>
+                        <button type="button" class="red-btn">More</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row film">
+            <div class="film-still">
+                <a href="film-single.html">
+                    <img src="{{ request.static_path('jhodge_public:static/MEDIA/the_jump_cover.jpg') }}" />
+                    <div class="video-btn">
+                        <img src="{{ request.static_path('jhodge_public:static/STATIC/video-play-button.png') }}" />
+                    </div>
+                </a>
+            </div>
+            <a href="film-single.html">
+                <div class="film-list-description">
+                    <h2>The Jump</h2>
+                    <div class="horizontal-bar white"></div>
+                    <div class="media-meta full">
+                        <ul>
+                            <li>May 30, 2016</li>
+                            <li>Director</li>
+                            <li>Primal Links Media</li>
+                        </ul>
+                    </div>
+                    <div class="film-excerpt">
+                        <p>
+                            This is my website. There are many like it, but this one is...
+                        </p>
+                        <button type="button" class="red-btn">More</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row film">
+            <div class="film-still">
+                <a href="film-single.html">
+                    <img src="{{ request.static_path('jhodge_public:static/MEDIA/knockout_game_cover.jpg') }}" />
+                    <div class="video-btn">
+                        <img src="{{ request.static_path('jhodge_public:static/STATIC/video-play-button.png') }}" />
+                    </div>
+                </a>
+            </div>
+            <a href="film-single.html">
+                <div class="film-list-description">
+                    <h2>The Knockout Game</h2>
+                    <div class="horizontal-bar white"></div>
+                    <div class="media-meta full">
+                        <ul>
+                            <li>May 30, 2016</li>
+                            <li>Director</li>
+                            <li>Primal Links Media</li>
+                        </ul>
+                    </div>
+                    <div class="film-excerpt">
+                        <p>
+                            This is my website. There are many like it, but this one is...
+                        </p>
+                        <button type="button" class="red-btn">More</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+</main>
+{% endblock content %}

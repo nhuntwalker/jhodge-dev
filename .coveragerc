@@ -1,0 +1,3 @@
+[run]
+source = jhodge_public
+omit = jhodge_public/test*

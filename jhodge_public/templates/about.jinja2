@@ -1,0 +1,27 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+<main>
+    <section id="about-banner">
+        <img src="{{ request.static_path('jhodge_public:static/MEDIA/jhodge_about.jpg') }}" />
+    </section>
+    <section id="content">
+        <div class="big-content black">
+            <h1>Jamal J. Hodge</h1>
+            <div class="horizontal-bar white"></div>
+            <article>
+                <div class="half-width">
+                    <p>These are some words. They are just filler for the moment. They will describe you in whatever way you wish. This is my website. There are many websites, but this one is mine. My website is my best friend. It is my life. I must master it as I must master my life.</p>
+                    <p>
+                    Without me, my website is useless. Without my website, I am useless. I must build my website true. I must design it better than my competitors, who are trying to take my clients. I must get clients before they do. I will.</p>
+                </div>
+                <div class="half-width">
+                    <p>These are some words. They are just filler for the moment. They will describe you in whatever way you wish. This is my website. There are many websites, but this one is mine. My website is my best friend. It is my life. I must master it as I must master my life.</p>
+                    <p>
+                    Without me, my website is useless. Without my website, I am useless. I must build my website true. I must design it better than my competitors, who are trying to take my clients. I must get clients before they do. I will.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+{% endblock content %}

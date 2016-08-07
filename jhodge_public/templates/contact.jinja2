@@ -1,0 +1,36 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+<main>
+    <section id="contact-banner">
+        <img src="{{ request.static_path('jhodge_public:static/MEDIA/contact_onset.jpg') }}" />
+        <div id="contact-cover">
+            <h2>Let's Work</h2>
+        </div>
+    </section>
+    <section id="content">
+        <div id="contact-form" class="big-content black">
+            <h1>Contact</h1>
+            <div class="horizontal-bar white"></div>
+            <form>
+                <div id="fields">
+                    <fieldset>
+                        <label for="name">Name:</label><br/>
+                        <label for="email">E-mail:</label><br/>
+                        <label for="subject">Subject:</label><br/>
+                        <label for="message">Message:</label><br/>
+                    </fieldset>
+                    <fieldset>
+                        <input type="text" name="name" required/>
+                        <input type="email" name="email" required/>
+                        <input type="text" name="subject" required/>
+                        <textarea name="message" placeholder="Write your message here." required>
+                        </textarea>
+                        <input type='submit' class='red-btn' value='contact me' />
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+{% endblock content %}

@@ -1,0 +1,133 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+        <main>
+            <section id="top-banner">
+                <div id="slider-content">
+                    <ul id="slides">
+                        <li class="show">
+                            <img src="{{ request.static_path('jhodge_public:static/MEDIA/the_kind_ones_screenshot.jpg') }}" />
+                            <div class="slider-description">
+                                <h2>The Kind Ones</h2>
+                                <div class="horizontal-bar white"></div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                                <button class="red-btn"><a href="#">More</a></button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="{{ request.static_path('jhodge_public:static/MEDIA/the_jump_cover.jpg') }}" />
+                            <div class="slider-description">
+                                <h2>The Jump</h2>
+                                <div class="horizontal-bar white"></div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                                <button class="red-btn"><a href="#">More</a></button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="{{ request.static_path('jhodge_public:static/MEDIA/knockout_game_cover.jpg') }}" />
+                            <div class="slider-description">
+                                <h2>The Knockout Game</h2>
+                                <div class="horizontal-bar white"></div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                </p>
+                                <button class="red-btn"><a href="#">More</a></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <div id="slider-control">
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="content">
+                <div class="row home">
+                    <div class="media-img">
+                        <a href="film-single.html">
+                            <img src="http://www.placehold.it/400x265" />
+                        </a>
+                    </div>
+                    <a href="film-single.html">
+                        <div class="media-description">
+                            <h2>The Kind Ones</h2>
+                            <i class="fa fa-video-camera media-type" aria-hidden="true"></i>
+                            <div class="horizontal-bar white"></div>
+                            <div class="media-meta full">
+                                <ul>
+                                    <li>May 30, 2016</li>
+                                    <li>Director</li>
+                                    <li>Primal Links Media</li>
+                                </ul>
+                            </div>
+                            <div class="media-excerpt">
+                                <p>
+                                    These would be words describing the movie. I haven't seen it, so I don't know what to say about it, however you directed it so you would have more of an idea of what should go here...
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="row home">
+                    <div class="media-img">
+                        <a href="writing-single.html">
+                            <img src="http://www.placehold.it/400x265" />
+                        </a>
+                    </div>
+                    <a href="writing-single.html">
+                        <div class="media-description">
+                            <h2>The Girl in the Doll's Dress</h2>
+                            <i class="fa fa-file-text media-type" aria-hidden="true"></i>
+                            <div class="horizontal-bar white"></div>
+                            <div class="media-meta full">
+                                <ul>
+                                    <li>May 30, 2016</li>
+                                    <li>Director</li>
+                                    <li>Some Publisher</li>
+                                </ul>
+                            </div>
+                            <div class="media-excerpt">
+                                <p>
+                                    These would be words describing the story. I haven't read it, so I don't know what to say about it, however you wrote it so you would have more of an idea of what should go here...
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="row home">
+                    <div class="media-img">
+                        <a href="#">
+                            <img src="http://www.placehold.it/400x265" />
+                        </a>
+                    </div>
+                    <a href="#">
+                        <div class="media-description">
+                            <h2>The Kind Ones</h2>
+                            <i class="fa fa-video-camera media-type" aria-hidden="true"></i>
+                            <div class="horizontal-bar white"></div>
+                            <div class="media-meta full">
+                                <ul>
+                                    <li>May 30, 2016</li>
+                                    <li>Director</li>
+                                    <li>Primal Links Media</li>
+                                </ul>
+                            </div>
+                            <div class="media-excerpt">
+                                <p>
+                                    These would be words describing the movie. I haven't seen it, so I don't know what to say about it, however you directed it so you would have more of an idea of what should go here...
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+{% endblock content %}
+
+{% block specific_scripts%}
+        <script src="{{ request.static_path('jhodge_public:static/js/slider.js') }}"></script>
+{% endblock specific_scripts %}
