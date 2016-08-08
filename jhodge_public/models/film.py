@@ -13,12 +13,14 @@ class Film(Base):
     __tablename__ = 'films'
     id = Column(Integer, primary_key=True)
     title = Column(Unicode)
+    slug = Column(Unicode)
     release_date = Column(Date)
     production = Column(Unicode)
     production_link = Column(Unicode)
     director = Column(Unicode)
     cast = Column(Unicode)
     excerpt = Column(Unicode)
+    full_text = Column(Unicode)
     trailer = Column(Unicode)
     snapshot = Column(Unicode)
 

@@ -1,0 +1,31 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+
+<h2>Add a Writing Sample</h2>
+
+<form action="{{ request.route_url('create_writing') }}" method="POST" enctype="multipart/form-data">
+    <label for="title">Title:</label><br/>
+    <input type="text" name="title"/><br/>
+
+    <label for="published_on">Publication Date:</label><br/>
+    <input type="date" name="published_on"/><br/>
+
+    <label for="publisher">Publisher:</label><br/>
+    <input type="text" name="publisher"><br/>
+
+    <label for="publisher_url">Publisher URL:</label><br/>
+    <input type="url" name="publisher_url"><br/>
+
+    <label for="excerpt">Excerpt:</label><br/>
+    <textarea name="excerpt"></textarea><br/>
+
+    <label for="sample">Sample:</label><br/>
+    <textarea name="sample"></textarea><br/>
+
+    <label for="cover_img">Cover Image:</label><br/>
+    <input type="file" name="cover_img"/><br/>
+
+    <input type="submit" value="Add Writing Sample"/>
+</form>
+{% endblock content %}

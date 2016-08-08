@@ -1,3 +1,12 @@
 def includeme(config):
     config.add_static_view('static', 'static', cache_max_age=3600)
     config.add_route('home', '/')
+    config.add_route('about', '/about')
+    config.add_route('contact', '/contact')
+    config.add_route('film_single', '/film/{slug:[\w+-]+}')
+    config.add_route('film', '/film')
+    config.add_route('writing_single', '/writing/{slug:[\w+-]+}')
+    config.add_route('writing', '/writing')
+    config.add_route('admin', '/admin')
+    config.add_route('create_writing', '/admin/add_writing')
+    config.add_route('create_film', '/admin/add_film')

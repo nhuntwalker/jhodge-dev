@@ -1,0 +1,40 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+
+<h2>Add a New Film</h2>
+
+<form action="{{ request.route_url('create_film') }}" method="POST" enctype="multipart/form-data">
+    <label for="title">Title:</label><br/>
+    <input type="text" name="title"/><br/>
+
+    <label for="release_date">Release Date:</label><br/>
+    <input type="date" name="release_date"/><br/>
+
+    <label for="production">Production Company:</label><br/>
+    <input type="text" name="production"><br/>
+
+    <label for="production_link">Production Company URL:</label><br/>
+    <input type="url" name="production_link"><br/>
+
+    <label for="director">Director:</label><br/>
+    <input type="text" name="director"/><br/>
+
+    <label for="cast">Cast (separate with commas):</label><br/>
+    <textarea name="cast"></textarea><br/>
+
+    <label for="excerpt">Excerpt:</label><br/>
+    <textarea name="excerpt"></textarea><br/>
+
+    <label for="full_text">Full Description:</label><br/>
+    <textarea name="full_text"></textarea><br/>
+
+    <label for="trailer">Trailer URL:</label><br/>
+    <input type="url" name="trailer"/><br/>
+
+    <label for="snapshot">Snapshot:</label><br/>
+    <input type="file" name="snapshot"/><br/>
+
+    <input type="submit" value="Add Film"/>
+</form>
+{% endblock content %}
