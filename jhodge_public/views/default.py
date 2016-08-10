@@ -439,10 +439,7 @@ def contact(request):
             message=request.POST["message"]
         )
 
-        # session = get_session(request)
-        engine = get_engine(request.registry.settings)
-        Session = sessionmaker(bind=engine)
-        session = Session()
+        session = get_session(request)
         session.add(new_contact)
         session.commit()
 
