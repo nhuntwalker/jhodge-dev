@@ -3,61 +3,23 @@
 {% block content %}
 <main>
     <section id="content">
+        {% for writing in all_writings %}
         <div class="item-writing">
             <div class="writing-thumb">
-                <img src="{{ request.static_path('jhodge_public:static/MEDIA/first_book_cover.jpg') }}" />
+                <img src="{{ writing.cover_url }}" />
                 <div class="writing-hover">
-                    <a href="writing-single.html">
+                    <a href="{{ request.route_url('writing_single', id=writing.id) }}">
                         Read
                     </a>
                 </div>
             </div>
-            <a href="writing-single.html">
+            <a href="{{ request.route_url('writing_single', id=writing.id) }}">
                 <div class="writing-item-description">
-                    <h2>The Girl in the Doll's Dress</h2>
-                    <span class="media-meta date">
-                        May 30, 2016
-                    </span>
+                    <h2>{{ writing.title }}</h2>
                 </div>
             </a>
         </div>
-
-        <div class="item-writing">
-            <div class="writing-thumb">
-                <img src="{{ request.static_path('jhodge_public:static/MEDIA/first_book_cover.jpg') }}" />
-                <div class="writing-hover">
-                    <a href="writing-single.html">
-                        Read
-                    </a>
-                </div>
-            </div>
-            <a href="writing-single.html">
-                <div class="writing-item-description">
-                    <h2>The Girl in the Doll's Dress</h2>
-                    <span class="media-meta date">
-                        May 30, 2016
-                    </span>
-                </div>
-            </a>
-        </div>
-        <div class="item-writing">
-            <div class="writing-thumb">
-                <img src="{{ request.static_path('jhodge_public:static/MEDIA/first_book_cover.jpg') }}" />
-                <div class="writing-hover">
-                    <a href="writing-single.html">
-                        Read
-                    </a>
-                </div>
-            </div>
-            <a href="writing-single.html">
-                <div class="writing-item-description">
-                    <h2>The Girl in the Doll's Dress</h2>
-                    <span class="media-meta date">
-                        May 30, 2016
-                    </span>
-                </div>
-            </a>
-        </div>
+        {% endfor %}
     </section>
 </main>
 {% endblock content %}

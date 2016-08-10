@@ -12,18 +12,39 @@
     <body>
         <nav class="sticky-menu">
             <ul id="top-menu">
-                <a href="index.html"><li>Home</li></a>
-                <a href="film.html"><li>Film</li></a>
-                <a href="writing.html"><li>Writing</li></a>
-                <a href="about.html"><li>About</li></a>
-                <a href="contact.html"><li>Contact</li></a>
+            {% if home %}
+                <a href="{{ request.route_url('home') }}"><li class="active">Home</li></a>
+            {% else %}
+                <a href="{{ request.route_url('home') }}"><li>Home</li></a>
+            {% endif %}
+            {% if film %}
+                <a href="{{ request.route_url('film') }}"><li class="active">Film</li></a>
+            {% else %}
+                <a href="{{ request.route_url('film') }}"><li>Film</li></a>
+            {% endif %}
+            {% if writing %}
+                <a href="{{ request.route_url('writing') }}"><li class="active">Writing</li></a>
+            {% else %}
+                <a href="{{ request.route_url('writing') }}"><li>Writing</li></a>
+            {% endif %}
+            {% if about %}
+                <a href="{{ request.route_url('about') }}"><li class="active">About</li></a>
+            {% else %}
+                <a href="{{ request.route_url('about') }}"><li>About</li></a>
+            {% endif %}
+            {% if contact %}
+                <a href="{{ request.route_url('contact') }}"><li class="active">Contact</li></a>
+            {% else %}
+                <a href="{{ request.route_url('contact') }}"><li>Contact</li></a>
+            {% endif %}
+
             </ul>
             <ul id="social-media">
-                <li><a href="http://www.facebook.com"><i class="fa fa-facebook-official"></i></a></li>
-                <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="http://www.imdb.com"><img src="{{ request.static_path('jhodge_public:static/STATIC_FILES/imdb-bw.png') }}" /></a></li>
-                <li><a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.facebook.com/Primal-Links-Media-151766004494/"><i class="fa fa-facebook-official"></i></a></li>
+                <li><a href="https://twitter.com/directorhodge"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/directorh/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="http://www.imdb.com/name/nm0388071/"><img src="{{ request.static_path('jhodge_public:static/STATIC_FILES/imdb-bw.png') }}" /></a></li>
+                <li><a href="https://www.linkedin.com/in/jamal-hodge-891055b"><i class="fa fa-linkedin"></i></a></li>
             </ul>
         </nav>
         {% block content%}{% endblock content%}

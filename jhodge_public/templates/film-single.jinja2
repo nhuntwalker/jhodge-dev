@@ -1,51 +1,29 @@
+{% extends "layout.jinja2" %}
+
 {% block content %}
 <main>
     <section id="film-banner">
-        <img src="{{ request.static_path('jhodge_public:static/MEDIA/the_kind_ones_screenshot.jpg') }}" />
-        <div class="video-btn">
+        <img src="{{ the_film.screenshot_url }}" />
+{#         <div class="video-btn">
             <img src="{{ request.static_path('jhodge_public:static/STATIC/video-play-button.png') }}" />
-        </div>
+        </div> #}
     </section>
     <section id="content">
         <div class="big-content black">
-            <h1>The Kind Ones</h1>
+            <h1>{{ the_film.title }}</h1>
             <div class="horizontal-bar white"></div>
             <div class="media-meta film">
                 <ul>
-                    <li>May 30, 2016</li>
-                    <li>Primal Links Media</li>
+                    <li>{{ the_film.release_date }}</li>
+                    <li>{{ the_film.production }}</li>
                 </ul>
             </div>
-            <div id="cast">
-                <h2>Cast</h2>
-                <div class="full-cast-list">
-                    <div class="cast-list">
-                        <ul>
-                            <li>Elenora Linda</li>
-                            <li>Lilian Regina</li>
-                            <li>Layton Normand</li>
-                            <li>Desidéria Fabienne</li>
-                            <li>Aldous Eusebio</li>
-                        </ul>
-                    </div>
-                    <div class="cast-list">
-                        <ul>
-                            <li>Elenora Linda</li>
-                            <li>Lilian Regina</li>
-                            <li>Layton Normand</li>
-                            <li>Desidéria Fabienne</li>
-                            <li>Aldous Eusebio</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
             <article class="film-description">
+            {% for paragraph in the_film.full_text %}
                 <p>
-                    This will be some text that describes the film. I think a few sentences about the plot should be all that’s necessary for the first paragraph. Really like...no more than 4-5 lines. Hell, I’m having difficulty figuring out what to write right now, and this is only the fourth sentence (and coincidentally the fourth line). This is my website. There are many like it, but this one is mine.
+                    {{paragraph}}
                 </p>
-                <p>
-                    This next bit depends on what you want to include about the making of the movie. Perhaps some comments? I don’t know what you’d want on it, honestly. Whatever you think might be best for talking about your film really.
-                </p>
+            {% endfor %}
             </article>
         </div>
     </section>

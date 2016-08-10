@@ -36,7 +36,17 @@ footer {
     background-color: rgb(25, 25, 25);
     padding: 15px;
 }
-
+.clearfix {
+    clear: both;
+}
+.center-text {
+    text-align: center;
+    margin: 0 auto;
+    text-indent: 0px!important;
+}
+.italic {
+    font-style: italic;
+}
 
 #top-menu {
     float: left;
@@ -98,8 +108,12 @@ main {
     min-height: 600px;
 }
 
+#content {
+    padding-top: 15px;
+}
+
 #top-banner, #about-banner, #film-banner {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     position: relative;
 }
 #slider-content {
@@ -119,7 +133,9 @@ main {
     z-index: 2;
 }
 #slider-content img {
-    width: 100%;
+    width: 110%;
+    position: relative;
+    top: -40px;
 }
 
 #slider-control {
@@ -168,6 +184,7 @@ main {
 }
 .slider-description p {
     line-height: 1.3em;
+    margin-bottom: 10px;
 }
 .red-btn {
     background-color: rgb(224, 0, 0);
@@ -190,14 +207,14 @@ main {
 }
 
 #top-banner {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .row {
     clear: both;
     overflow: hidden;
     margin: 0 auto 15px;
-    width: 905px;
+    width: 950px;
     position: relative;
 }
 
@@ -206,13 +223,22 @@ main {
 }
 .row.home .media-img {
     float: left;
-    margin-right: 5px;
+    margin-right: 10px;
+    width: 400px;
+    overflow: hidden;
+    height: 265px;
+}
+.row.home .media-img img {
+    position: relative;
+    height: 120%;
+    right: 20%;
+    top: -10%;
 }
 
 .media-description {
     background-color: #2d2d2d;
     float: left;
-    max-width: 500px;
+    max-width: 540px;
     height: 265px;
     padding: 20px;
     box-sizing: border-box;
@@ -291,21 +317,36 @@ main {
 
 /* WRITING PAGE */
 .item-writing {
-    /*width: 418px;*/
-    width: 50%;
+    width: 40%;
     float: left;
+    margin-top: 20px;
 }
-.item-writing:nth-child(3n + 1) {
-    /*margin-left:7.5px;*/
+.item-writing:nth-child(odd){
+    margin-left: 7.5%;
+    margin-right: 2.5%;
 }
+.item-writing:nth-child(even){
+    margin-right: 7.5%;
+    margin-left: 2.5%;
+}
+
 .writing-thumb {
     overflow: hidden;
-    /*max-height: 350px;*/
     position: relative;
+    height: 380px;
+    background-color: white;
 }
 .writing-thumb img {
-    /*max-height: 400px;*/
+    position: relative;
+    top: -10%;
+    bottom: 0;
+    left: -10%;
+    width: 120%;
+}
+.writing-thumb.smaller img {
     width: 100%;
+    left: 0;
+    top: 0;
 }
 .writing-hover {
     position: absolute;
@@ -335,7 +376,36 @@ main {
 }
 .writing-item-description h2 {
     margin-bottom: 10px;
+    text-align: center;
 }
+
+
+/*.item-writing {
+    overflow:hidden;
+}
+.writing-icon {
+    float: left;
+    color: white;
+    background-color: rgb(45, 45, 45);
+    font-size: 2em;
+    height: 75px;
+    box-sizing: border-box;
+}
+.writing-title {
+    background-color: rgb(155, 155, 155);
+    float: left;
+    padding: 25px 10px;
+    height: 75px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.item-writing .red-btn {
+    font-size: 1.5em;
+    height: 75px;
+    box-sizing: border-box;   
+    padding: 0 20px;
+    float: left;
+}*/
 
 /* ABOUT */
 
@@ -367,9 +437,14 @@ main {
 .big-content .horizontal-bar {
     margin: 0 auto 40px;
 }
-.half-width {
-    width: 35%;
-    margin: 0 7.5%;
+.half-width:first-child {
+    width: 45%;
+    margin: 0 3% 0 2%;
+    float: left;
+}
+.half-width:last-child {
+    width: 45%;
+    margin: 0 2% 0 3%;
     float: left;
 }
 .half-width p {
@@ -415,8 +490,9 @@ main {
 }
 #fields {
     overflow: hidden;
-    margin: 0 auto;
-    width: 50%;
+    float: left;
+    position: relative;
+    left: 20%;
 }
 fieldset:first-child {
     margin-right: 30px;
@@ -434,12 +510,13 @@ fieldset:first-child {
     padding: 10px;
     color: #4e4e4e;    
 }
-#fields input,
+#fields input[type="text"],
+#fields input[type="email"],
 #fields textarea {
-    width: 300px;
+    min-width: 500px;
 }
 #fields textarea {
-    height: 140px;
+    height: 400px;
 }
 
 #fields label {
@@ -519,9 +596,17 @@ aside h1 {
     font-size: 1.3em;
     line-height: 1.3em;
 }
-aside img {
-    width: 260px;
+.aside-img {
+    max-height: 230px;
+    overflow: hidden;
     margin-bottom: 20px;
+    border: 8px solid white;
+}
+aside img {
+    width: 300px;
+    position: relative;
+    left: -25px;
+    top: -10px;
 }
 aside .media-meta {
     color: white;
@@ -570,4 +655,7 @@ aside .clear-btn:hover {
     margin-bottom: 20px;
     line-height: 1.3em;
     text-indent: 40px;
+}
+.center-bar {
+    margin: 20px auto 30px!important;
 }

@@ -4,43 +4,38 @@
 <main>
     <section id="single-writing" class="split-content">
         <aside class="fixed">
-            <img src="http://placehold.it/260x160" />
-            <h1>The Girl in the Doll's Dress</h1>
+            <div class="aside-img">
+                <img src="{{ the_writing.cover_url }}" />
+            </div>
+            <h1>{{ the_writing.title }}</h1>
             <div class="media-meta full">
-                <ul>
+                {# <ul>
                     <li>May 30, 2016</li>
                     <li>Some Publisher</li>
-                </ul>
+                </ul> #}
             </div>
-            <a href="#"><div type="button" class="clear-btn">Get It Now</div></a>
+            <a href="{{ the_writing.external_link }}">
+                <div type="button" class="clear-btn">
+                    See More
+                </div>
+            </a>
         </aside>
         <article class="space-filler"></article>
         <article class="writing-excerpt">
-            <h2>Excerpt from The Girl in the Doll's Dress</h2>
+            {% if the_writing.center %}
+            <h2 class="center-text">{{ the_writing.title }}</h2>
+            <div class="horizontal-bar white center-bar"></div>
+            {% else %}
+            <h2>Excerpt from {{ the_writing.title }}</h2>
             <div class="horizontal-bar white"></div>
-            <p>This is an arbitrarily-long wall of text that’s an excerpt from one of your books/writing samples. You can put whatever you want here (or I guess ask me to put whatever you want in this space). It’ll maintain some formatting, like words can be bolded, underlined, or italicized. If there’s a quote, then guess what, "those quotes will also appear here!"</p>
-            <p>If you want to start your paragraphs with tab-spacing, that can happen too. Any fancy prose formatting though is going to have to kick rocks, so choose your excerpts wisely.</p>
-            <p>One more thing to know is that the box on the left side there showing the book title, date, etc. so that you can buy it on Amazon or wherever it’s published will be fixed in place. That means that while the reader may scroll down this side of the page to see more from this excerpt, they’ll still be able to immediately see where to get this book from. I think that explains the gist of it, so the rest of this will be filler text just to show you what paragraphs look like in this format.</p>
-            <p>This is my website. There are many like it, but this one is mine. My website is my best friend. It is my life. I must master it as I must master my life. Without me, my website is useless. Without my website, I am useless. I must build my website true. I must build it better than my competitors, who are trying to steal my business. I must get clients before they do. I will...</p>
-            <p>My website and I know that what counts in web design is not the framework we use, the styles we employ, nor the libraries we include. We know that it is the visits that count. We will get visits.</p>
-            <p>My website is human, even as I, because it is my life. Thus, I will learn it as a brother. I will learn its weaknesses, its strengths, its parts, its plugins, its routes, and its views. I will keep my website clean and updated. We will become part of each other. We will...</p>
-            <p>Before God, I swear this creed. My website and I are the defenders of my brand. We are the masters of the internet. We are the saviors of my life.</p>
-            <p>So be it, until victory is mine and there are no competitors, but contracts!</p>
-            <p>This is my website. There are many like it, but this one is mine. My website is my best friend. It is my life. I must master it as I must master my life. Without me, my website is useless. Without my website, I am useless. I must build my website true. I must build it better than my competitors, who are trying to steal my business. I must get clients before they do. I will...</p>
-            <p>My website and I know that what counts in web design is not the framework we use, the styles we employ, nor the libraries we include. We know that it is the visits that count. We will get visits.</p>
-            <p>My website is human, even as I, because it is my life. Thus, I will learn it as a brother. I will learn its weaknesses, its strengths, its parts, its plugins, its routes, and its views. I will keep my website clean and updated. We will become part of each other. We will...</p>
-            <p>Before God, I swear this creed. My website and I are the defenders of my brand. We are the masters of the internet. We are the saviors of my life.</p>
-            <p>So be it, until victory is mine and there are no competitors, but contracts!</p>
-            <p>This is my website. There are many like it, but this one is mine. My website is my best friend. It is my life. I must master it as I must master my life. Without me, my website is useless. Without my website, I am useless. I must build my website true. I must build it better than my competitors, who are trying to steal my business. I must get clients before they do. I will...</p>
-            <p>My website and I know that what counts in web design is not the framework we use, the styles we employ, nor the libraries we include. We know that it is the visits that count. We will get visits.</p>
-            <p>My website is human, even as I, because it is my life. Thus, I will learn it as a brother. I will learn its weaknesses, its strengths, its parts, its plugins, its routes, and its views. I will keep my website clean and updated. We will become part of each other. We will...</p>
-            <p>Before God, I swear this creed. My website and I are the defenders of my brand. We are the masters of the internet. We are the saviors of my life.</p>
-            <p>So be it, until victory is mine and there are no competitors, but contracts!</p>
-            <p>This is my website. There are many like it, but this one is mine. My website is my best friend. It is my life. I must master it as I must master my life. Without me, my website is useless. Without my website, I am useless. I must build my website true. I must build it better than my competitors, who are trying to steal my business. I must get clients before they do. I will...</p>
-            <p>My website and I know that what counts in web design is not the framework we use, the styles we employ, nor the libraries we include. We know that it is the visits that count. We will get visits.</p>
-            <p>My website is human, even as I, because it is my life. Thus, I will learn it as a brother. I will learn its weaknesses, its strengths, its parts, its plugins, its routes, and its views. I will keep my website clean and updated. We will become part of each other. We will...</p>
-            <p>Before God, I swear this creed. My website and I are the defenders of my brand. We are the masters of the internet. We are the saviors of my life.</p>
-            <p>So be it, until victory is mine and there are no competitors, but contracts!</p>
+            {% endif %}
+            {% for paragraph in the_writing.full_text %}
+            {% if the_writing.center %}
+            <p class="center-text">{{ paragraph | safe}}</p>
+            {% else %}
+            <p>{{ paragraph | safe}}</p>
+            {% endif %}
+            {% endfor %}
         </article>
     </section>
 </main>
