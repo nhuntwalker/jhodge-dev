@@ -235,7 +235,7 @@ WRITINGS = [
             """"She is gifted with a snake's tongue and a brilliant cunning
              mind." The man peered into her, looking past the physical
              perfection, "She tempts with her words and plants dirty thoughts;
-             her voice is sex. She corrupts the emotions. She would amuse
+             her voice is sex. She corrupts the emotions. She would amuse
              herself by turning me from my proper place, to find murderous end
              between her thighs, but not before I was stripped of every moral
              posession and left a shadow of my former self." """,
