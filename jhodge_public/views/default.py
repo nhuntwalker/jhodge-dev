@@ -38,13 +38,8 @@ def get_media_path(request, media_path):
              renderer='../templates/home.jinja2')
 def home(request):
     """Display data to the Home page."""
-    films = request.dbsession.query(Film).all()
-    for film in films:
-        film.screenshot_url = get_media_path(request, film.screenshot)
     return {
-        'project': 'jhodge_public',
         'home': True,
-        'all_films': films
     }
 
 
@@ -92,13 +87,19 @@ def contact(request):
 def films(request):
     """Display data to the Film page."""
     films = request.dbsession.query(Film).all()
+    slider_titles = ["the jump", "the kind ones", "the knockout game"]
+    slider_films = []
+
     for film in films:
         film.screenshot_url = get_media_path(request, film.screenshot)
+        if film.title.lower() in slider_titles:
+            slider_films.append(film)
 
     return {
         'project': 'jhodge_public',
         'film': True,
-        'all_films': films
+        'all_films': films,
+        'slider_films': slider_films
     }
 
 

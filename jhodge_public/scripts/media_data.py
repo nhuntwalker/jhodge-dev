@@ -1,6 +1,41 @@
 FILMS = [{
+    "title": "The Jump",
+    "release_date": "",
+    "production": "Primal Links Media",
+    "id": 9999,
+    "slug": "the-jump",
+    "full_text": [
+        """As a child Eric believed that the water was magical.
+ In the water there was nothing he couldn’t do. But a life-changing encounter
+ with bullies at a pool plants seeds of self-doubt. Still haunted by the experience
+ as an adult, Eric decides that the only way to take back control over his life is
+ to get back into the water. If he can face his fears 30-feet above the water, then
+ he'll rediscover his magic--and realize he's had the power to conquer his fears
+ all along.""",
+        """"""
+    ],
+    "excerpt": """As a child Eric believed that the water was magical.
+ In the water there was nothing...""",
+    "slider_text": """
+<p>
+In the water there was nothing he couldn’t do. But a life-changing encounter
+ with bullies at a pool plants seeds of self-doubt.
+</p>
+<p>
+Still haunted by the experience as an adult, Eric decides that the only way to
+ take back control over his life is to get back into the water.
+</p>
+""",
+    "home_text": """As a child Eric believed that the water was magical.
+ In the water there was nothing he couldn’t do. But a life-changing encounter
+ with bullies at a pool plants seeds of self-doubt.""",
+    "trailer": "http://www.thejumpshortfilm.com/",
+    "screenshot": "the_jump_cover.jpg"
+},
+    {
     "title": "The Kind Ones",
     "release_date": "Coming 2016",
+
     "production": "Primal Links Media",
     "id": 8246,
     "slug": "kind-ones",

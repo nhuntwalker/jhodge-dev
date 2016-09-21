@@ -5,7 +5,7 @@
     <section id="top-banner">
         <div id="slider-content">
             <ul id="slides">
-                {% for film in all_films %}
+                {% for film in slider_films %}
                     {% if loop.first %}
                         <li class="show">
                     {% else %}
@@ -48,7 +48,6 @@
                     <div class="horizontal-bar white"></div>
                     <div class="media-meta full">
                         <ul>
-                            <li>{{ film.release_date }}</li>
                             <li>{{ film.production }}</li>
                         </ul>
                     </div>
