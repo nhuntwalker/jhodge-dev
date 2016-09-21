@@ -19,7 +19,9 @@
                 </ul>
             </div>
             <article class="film-description">
-            {{ the_film.full_text }}
+                {% for paragraph in full_text %}
+                    <p>{{ paragraph }}</p>
+                {% endfor %}
             </article>
         </div>
     </section>

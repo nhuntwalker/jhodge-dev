@@ -30,11 +30,17 @@
                 <div class="horizontal-bar white"></div>
             {% endif %}
 
-            {% if the_writing.center %}
-                <p class="center-text">{{ the_writing.full_text | safe}}</p>
-            {% else %}
-                <p>{{ the_writing.full_text | safe}}</p>
-            {% endif %}
+            {% for paragraph in full_text %}
+                {% if the_writing.center %}
+                    <p class="center-text">
+                        {% for line in paragraph %}
+                            {{ line }}<br/>
+                        {% endfor %}
+                    </p>
+                {% else%}
+                    <p>{{ paragraph|safe }}</p>
+                {% endif %}
+            {% endfor %}
 
         </article>
     </section>

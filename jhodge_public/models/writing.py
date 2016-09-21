@@ -22,5 +22,4 @@ class Writing(Base):
     external_link = Column(Unicode)
     cover_img = Column(Unicode)
 
-
 Index('writing_idx', Writing.title, unique=True, mysql_length=255)

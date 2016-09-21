@@ -94,6 +94,7 @@ def films(request):
     films = request.dbsession.query(Film).all()
     for film in films:
         film.screenshot_url = get_media_path(request, film.screenshot)
+
     return {
         'project': 'jhodge_public',
         'film': True,
@@ -107,12 +108,14 @@ def film_single(request):
     """Display data for an individual film."""
     film = request.dbsession.query(Film).get(request.matchdict["id"])
     film.screenshot_url = get_media_path(request, film.screenshot)
-    film.full_text = film.full_text.replace("\r\n", "<br />")
+    full_text = film.full_text.split("\r\n")
+    # import pdb; pdb.set_trace()
 
     return {
         'project': 'jhodge_public',
         'film': True,
-        'the_film': film
+        'the_film': film,
+        "full_text": full_text
     }
 
 
@@ -137,11 +140,16 @@ def writing_single(request):
     writing = request.dbsession.query(Writing).get(request.matchdict["id"])
 
     writing.cover_url = get_media_path(request, writing.cover_img)
+    full_text = writing.full_text.split("\r\n")
+    if writing.center:
+        for i in range(len(full_text)):
+            full_text[i] = full_text[i].split("<br/>")
 
     return {
         'project': 'jhodge_public',
         'writing': True,
-        "the_writing": writing
+        "the_writing": writing,
+        "full_text": full_text,
     }
 
 

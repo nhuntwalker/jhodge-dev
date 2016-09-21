@@ -55,6 +55,7 @@ def main(argv=sys.argv):
         add_these = []
 
         for film in FILMS:
+            # import pdb; pdb.set_trace()
             new_film = Film(
                 title=film["title"],
                 release_date=film["release_date"],
@@ -77,7 +78,8 @@ def main(argv=sys.argv):
                 slug=writing["slug"],
                 full_text="\r\n".join(writing["full_text"]),
                 external_link=writing["external_link"],
-                cover_img=writing["cover_img"]
+                cover_img=writing["cover_img"],
+                center=writing["center"]
             )
             add_these.append(new_script)
 
