@@ -180,13 +180,48 @@ between a thriller and a horror movie. Fueled by a deliberate
  answers to some of life's deepest challenges."""
     ],
     "excerpt": """A biopic series that follows the lives of real people as they
-     begin a journey of faith...""",
-    "slider_text": "Modern Grace is a biopic series that follows the lives of real people as they begin a journey of faith searching for meaningful answers to some of life's deepest challenges.",
+ begin a journey of faith...""",
+    "slider_text": """Modern Grace is a biopic series that follows the lives of
+ real people as they begin a journey of faith searching for meaningful answers
+ to some of life's deepest challenges.""",
     "home_text": """A biopic series that follows the lives of real people as
-     they begin a journey of faith searching for meaningful answers to some of
-     life's deepest challenges.""",
+ they begin a journey of faith searching for meaningful answers to some of
+ life's deepest challenges.""",
     "trailer": "https://vimeo.com/153945224",
     "screenshot": "modern_grace_cover.png"
+}, {
+    "title": "The Last Doctor",
+    "release_date": "",
+    "production": "Primal Links Media",
+    "id": 1234,
+    "slug": "last-doctor",
+    "full_text": ["""
+This documentary carries a story from a 76-year life, a life that has spanned
+ being a 16-year-old high school drop out to being one of the best diagnosticians
+ in the world. In the middle of that span, Dr. Klein has lost his first wife to
+ cancer, been married four times, become an Italian knight, run for American
+ Congress, met the Pope, provided medical care for arab POWs during Israel's
+ 6-day war, and assembled one of the most entertaining staffs of women to run
+ his office all while being an advocate against the oppressive Medical Insurance
+ companies, and a champion for victims of medical malpractice
+""",
+                  """
+His story will inspire viewers to take action for their own health while
+ teaching them the greatest lesson of Dr. Klein's life: that despite the
+ tragedies we all face, life itself is the reward.
+"""],
+    "excerpt": """His story will inspire viewers to take action for their own health
+while teaching them the...""",
+    "slider_text": """Follow the story coming from the 76-year life of one of
+ the world's greatest diagnosticians, Dr. Richard Klein. His story will inspire
+ you to realize his life's greatest lesson: that despite the tragedies we all
+ face, life itself is the reward.""",
+    "home_text": """Follow the story coming from the 76-year life of one of
+ the world's greatest diagnosticians, Dr. Richard Klein. His story will inspire
+ you to realize his life's greatest lesson: that despite the tragedies we all
+ face, life itself is the reward.""",
+    "trailer": "https://vimeo.com/156430872",
+    "screenshot": "the_last_doctor.jpg"
 }]
 
 WRITINGS = [
