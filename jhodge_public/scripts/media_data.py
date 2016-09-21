@@ -4,7 +4,6 @@ FILMS = [{
     "production": "Primal Links Media",
     "id": 8246,
     "slug": "kind-ones",
-    # "cast": [],
     "full_text": [
             """The Kind Ones is a dark thriller, meaning it lands somewhere in
             between a thriller and a horror movie. Fueled by a deliberate
