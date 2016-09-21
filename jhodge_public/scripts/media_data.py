@@ -4,6 +4,7 @@ FILMS = [{
     "production": "Primal Links Media",
     "id": 8246,
     "slug": "kind-ones",
+    # "cast": [],
     "full_text": [
             """The Kind Ones is a dark thriller, meaning it lands somewhere in
             between a thriller and a horror movie. Fueled by a deliberate
@@ -153,228 +154,228 @@ FILMS = [{
     "screenshot": "modern_grace_cover.png"
 }]
 
-# WRITINGS = [
-#     {
-#         "id": 7950,
-#         "title": "Death's First Born",
-#         "published_on": "",
-#         "publisher": "",
-#         "slug": "deaths-first-born",
-#         "full_text": [
-#             "",
-#             """Everything inside her felt as it always did, the same endless
-#              routine, requiring breathing and a heartbeat she could not stand.
-#              Beneath it all, permeating every thought, was the soothing hope of
-#              violence. It was her inner child's solemn wish, as exciting as the
-#              hope of presents on Christmas morning. She yearned to inflict
-#              harm. The thought of killing these Priests, of fracturing their
-#              spinal columns, of goring their faces with her fingernails,
-#              obsessed her.""",
-#             """Aimiomode made sure to keep her intentions from the surface,
-#              maintaining a warm and inviting demeaner. Through the hidden
-#              camera's lens, she could feel the lusts of the priests who watched
-#              her. Sense how they loved her osculating hips, how they basked in
-#              the oozing sexuality that sang to their own innate sexual
-#              instincts. She represented all they deeply desired but feared. The
-#              temptress who exchanged unknowable pleasure for unspeakable
-#              ruin.""",
-#             """Aimiomode calmly waited for desire to do its work. Someone would
-#              fall in love with the idea of possessing her. He (or She) would
-#              forsake all honor to see her free. It was inevitable. The flesh
-#              was weak and no one could resist pleasure.""",
-#             """She merely needed to stand in place and let her beauty destroy
-#              them.""",
-#             """The door to her chamber opened and she turned slowly so that her
-#              braided hair swept gently from her delicate shoulders, revealing
-#              the subtle curve of her neck. Her lips parted, her lashes low over
-#              beautiful startled eyes.""",
-#             """"That is intended to be the first look." Cinteotl said. "They
-#              take one look at that expression and it haunts their dreams for
-#              the rest of their days." """,
-#             """The Vicar of God was alone, mocking her with a smirk.""",
-#             """"It won't work in my house Mother. Here, all are educated about
-#              your nature. The Kel-Zatai clearly reveals the revelation of the
-#              Shadow Mother." Cinteotl stepped forward as the doors behind her
-#              let in songs of sorrow and redemption.""",
-#             """Aimiomode straightened up. "Knowing doesn't stand in the way of
-#              desire." She smirked back, "The one thing stronger than your God
-#              is my pussy." """,
-#             """Cinteotl didn't flinch.""",
-#             """"You know the pattern. You've seen it. This amusing little house
-#              you've built will pull itself apart around me." Aimiomode
-#              said.""",
-#             """"The Shadow Mother is cruel, frustrating, and catastrophic,
-#              bringing chaos to whatever roof accepts her." Cinteotl quoted her
-#              own words from the holy book written by her own hand.""",
-#             """"Then we're in agreement." """,
-#             """Cinetotl's face remained stoic, authoritative, immovable. "No,
-#              we are not." """,
-#             """"Tortue?" """,
-#             """"That would please you. Pain and pleasure are united in your
-#              perversions." """,
-#             """"You know you can't keep me here." """,
-#             """"Yet prophecy is upon us and I can't let you go." Cinteotl
-#              clapped. A priest in a wheel chair rolled up to her side. He was a
-#              man in his thirties, bald, white and devout, with the medallion of
-#              the black moon upon his neck. His eyes blazed with conviction, but
-#              he was a man, with a cock, and Aimiomode saw the inherent
-#              inferiority of such a creature. She waited for the familire
-#              glimmer behind the pupils, the birth of need.""",
-#             """Restraint. Duty. Honor. Faith. Nothing else resided within this
-#              sad passionless creature. He reminded her of her first husband,
-#              and she despised him instantly, her mind creating vindictive ways
-#              to unravel every civilized quality, to unhinge all his precious
-#              restraint, until he became little more than the mindless thrusting
-#              beast all males were.""",
-#             """"This is the Shadow Mother." Cinteotl said.""",
-#             """"Even now she seeks to undo me." the priest said.""",
-#             """"I'm not what she says I am." Aimiomode replied, seeking to
-#              plant seeds of doubt.""",
-#             """"Do you see Markel?" Cinteotl asked the priest.""",
-#             """"She is gifted with a snake's tongue and a brilliant cunning
-#              mind." The man peered into her, looking past the physical
-#              perfection, "She tempts with her words and plants dirty thoughts;
-#              her voice is sex. She corrupts the emotions. She would amuse
-#              herself by turning me from my proper place, to find murderous end
-#              between her thighs, but not before I was stripped of every moral
-#              posession and left a shadow of my former self." """,
-#             """Aimiomode laughed out loud, a husky seductive sound, "Are all
-#              your pets trained to talk like the bitch that raised them?" """,
-#             """"As you can see, she honors nothing." Cinteotl said.""",
-#             """Markel nodded, "An ignoble enemy." """,
-#             """Aimiomode gave him a warm smile. "Fuck you." She looked for
-#              it. But no, the sight of her smile did nothing for the man. It
-#              perplexed her. Humilated her.""",
-#             """Cinteotl seemed pleased with herself. "This Risen Father will
-#              oversee your comings and goings mother. He has made the necessary
-#              sacrifices to remain immune to your brand of corruption. Through
-#              him you will have the freedom to roam the Cathedral grounds.
-#              Of course, you will attempt to escape, but keep at the forefront
-#              of your thoughts that as Markel has prepared for you, so I have
-#              prepared for your children. They will be gathered and brought
-#              here." """,
-#             """"You would bring them to me?" Aimiomode asked suspciously.""",
-#             """"To further my purpose." Cinteotl said. "Get to know Markel.
-#              Examine his fortitude and find no flaw." The Vicar bowed with
-#              respect to the priest, and he returned the gesture with a deeper
-#              bow.""",
-#             """"I will keep watch over The Great Harlot." Markel
-#              promised.""",
-#             """"Blessed be." Cinteotl whispered.""",
-#             """Aimiomde burned with hate as she watched her daughter walk off
-#              as if she were somehow better than the womb that borne her. She
-#              brought her hateful eyes on the man in the wheel chair, aware of
-#              the chain around her ankle that kept her from reaching him with
-#              her nails and her teeth. This arrogant, filthy, little male,
-#              carrying judgement in his eyes.""",
-#             """"I will still be here when you are shit for the maggots... even
-#              after you wither from memory and your bloodline fades. I will
-#              still be here when your cities are dust. I will be here, and you
-#              will be what you always were-nothing." She hissed.""",
-#             """"Prophecy approaches. At the end of death you will simply be
-#              known as the first harlot and the last whore. There will be
-#              nothing special left of you except how greatly you failed."
-#              Markel said.""",
-#             """Aimiomde growled and cursed, and spat, reaching for him with
-#              malicious intent, but the ankle chain held and the Priest in the
-#              wheel chair simply watched her, unblinking."""
-#         ],
-#         "external_link": "https://vimeo.com/142309954",
-#         "cover_img": "first_book_cover.jpg"
-#     },
-#     {
-#         "id": 1134,
-#         "title": "Child of Change",
-#         "published_on": "",
-#         "publisher": "",
-#         "slug": "child-change",
-#         "full_text": [
-#             """Everything would be different.""",
-#             """Everything would become singular, separate, and lonely. It felt
-#              the totality of the betrayal, but it had no word for betrayal in
-#              its own mind, no knowledge of the definition of things, just
-#              feelings. The darkness squeezed against it, forcing it towards a
-#              cold opening. The sweet fluids had betrayed it first, running
-#              towards the unknown, making traction impossible for its tiny
-#              fingers as it grasped at the contracting walls.""",
-#             """<span class='italic'>"Pull it out!"</span>""",
-#             """<span class='italic'>"Breathe and push! Push!"</span>""",
-#             """<span class='italic'>"Mr. Brown, you are too close to the bed!
-#              Please step away!"</span>""",
-#             """It knew the voices of the outside people. It had heard them many
-#              times in the distance, like the whispers between thoughts, a
-#              constant noise without meaning to its ears. Now, for the first
-#              time, it could hear them clearly. And this quickly became a
-#              terrible thing, for the voices did have meaning, and behind that
-#              meaning waited the end of its world.""",
-#             """<span class='italic'>The world is Mother.</span>""",
-#             """<span class='italic'>"Push! Push!"</span>""",
-#             """Every contraction meant to push it towards the greedy void. It
-#              fought with every part of itself, losing centimeter after
-#              centimeter. The coldness grew ever closer, the terrible biting
-#              chill, cruel and screaming with sound.""",
-#             """<span class='italic'>"I can see its head, Mrs. Brown! You're
-#              almost there!"</span>""",
-#             """<span class='italic'>"Jesus! Is there supposed to be this much
-#              blood?"</span>""",
-#             """<span class='italic'>"Stand aside, Mr. Brown!"</span>""",
-#             """<span class='italic'>"Is there supposed to be this much
-#              blood!"</span>""",
-#             """<span class='italic'>"Someone get him out of here!"</span>""",
-#             """Cold brightness expanded across its face. It grasped the walls
-#              of its perfect world as hard as it could.""",
-#             """"Let go of me! Ellohaym, let go!" """,
-#             """<span class='italic'>I am Ellohaym?</span> It must be. Mother
-#              had used that sound many times before. <span class='italic'>Mother
-#              is life. Mother is peace. Mother is love.</span>""",
-#             """For Mother's sake, Ellohaym let go.""",
-#             """The first moments were chaotic; it felt itself being lifted,
-#              fluid dug out of its mouth by a gloved finger, so that it threw
-#              up, so that it started wailing. Then something sharp severed the
-#              link to Mother.""",
-#             """"It's strong!" """,
-#             """It fell forever, landing on something soft.""",
-#             """"You dropped it!" """,
-#             """"It's clearly a Dren, Mrs. Brown." """,
-#             """"We knew..." Mother slurred. "We didn't have a choice..." """,
-#             """Ellohaym pressed its naked body against its mother's thigh. It
-#              nibbled at Mother with a toothless mouth, squeezed every inch of
-#              itself against her in offering. It didn't want to be out here. It
-#              wanted Mother, only Mother, and the peace inside her...""",
-#             """Immense hands moved it to a warm bosom.""",
-#             """"No!" """,
-#             """Opening its eyes, Mother's face became Ellohaym's first miracle,
-#              beautiful in a way the darkness had never been. But a beauty
-#              without joy, and eyes wet with an angry panic. "No!" she wept.
-#              "Don't give it to me! Get my husband! I want my husband!" """
-#         ],
-#         "external_link": "",
-#         "cover_img": "child_of_change_cover.png"
-#     },
-#     {
-#         "id": 3022,
-#         "title": "Famine is a Dream",
-#         "published_on": "",
-#         "publisher": "",
-#         "slug": "famine-dream",
-#         "full_text": [
-#             """He dreams of producing lack of grain,<br/>
-#             of drinking the oceans dry.<br/>
-#             He dreams of fat things made skinny,<br/>
-#             of skinny things turned to corpses,<br/>
-#             corpses turned to dust.""",
-#             """He claims friendship to the thirsty man,<br/>
-#             whose throat burns with want,<br/>
-#             he claims kinship to the starving child,<br/>
-#             whose belly hangs swollen with hunger,""",
-#             """He calls himself friend,<br/>
-#             although he cares nothing for their pain.""",
-#             """He dreams of a world without friends,<br/>
-#             a shrinking world,<br/>
-#             without you or me.""",
-#         ],
-#         "center": True,
-#         "external_link": "",
-#         "cover_img": "book_icon.jpg"
-#     },
-# ]
+WRITINGS = [
+    {
+        "id": 7950,
+        "title": "Death's First Born",
+        "published_on": "",
+        "publisher": "",
+        "slug": "deaths-first-born",
+        "full_text": [
+            "",
+            """Everything inside her felt as it always did, the same endless
+             routine, requiring breathing and a heartbeat she could not stand.
+             Beneath it all, permeating every thought, was the soothing hope of
+             violence. It was her inner child's solemn wish, as exciting as the
+             hope of presents on Christmas morning. She yearned to inflict
+             harm. The thought of killing these Priests, of fracturing their
+             spinal columns, of goring their faces with her fingernails,
+             obsessed her.""",
+            """Aimiomode made sure to keep her intentions from the surface,
+             maintaining a warm and inviting demeaner. Through the hidden
+             camera's lens, she could feel the lusts of the priests who watched
+             her. Sense how they loved her osculating hips, how they basked in
+             the oozing sexuality that sang to their own innate sexual
+             instincts. She represented all they deeply desired but feared. The
+             temptress who exchanged unknowable pleasure for unspeakable
+             ruin.""",
+            """Aimiomode calmly waited for desire to do its work. Someone would
+             fall in love with the idea of possessing her. He (or She) would
+             forsake all honor to see her free. It was inevitable. The flesh
+             was weak and no one could resist pleasure.""",
+            """She merely needed to stand in place and let her beauty destroy
+             them.""",
+            """The door to her chamber opened and she turned slowly so that her
+             braided hair swept gently from her delicate shoulders, revealing
+             the subtle curve of her neck. Her lips parted, her lashes low over
+             beautiful startled eyes.""",
+            """"That is intended to be the first look." Cinteotl said. "They
+             take one look at that expression and it haunts their dreams for
+             the rest of their days." """,
+            """The Vicar of God was alone, mocking her with a smirk.""",
+            """"It won't work in my house Mother. Here, all are educated about
+             your nature. The Kel-Zatai clearly reveals the revelation of the
+             Shadow Mother." Cinteotl stepped forward as the doors behind her
+             let in songs of sorrow and redemption.""",
+            """Aimiomode straightened up. "Knowing doesn't stand in the way of
+             desire." She smirked back, "The one thing stronger than your God
+             is my pussy." """,
+            """Cinteotl didn't flinch.""",
+            """"You know the pattern. You've seen it. This amusing little house
+             you've built will pull itself apart around me." Aimiomode
+             said.""",
+            """"The Shadow Mother is cruel, frustrating, and catastrophic,
+             bringing chaos to whatever roof accepts her." Cinteotl quoted her
+             own words from the holy book written by her own hand.""",
+            """"Then we're in agreement." """,
+            """Cinetotl's face remained stoic, authoritative, immovable. "No,
+             we are not." """,
+            """"Tortue?" """,
+            """"That would please you. Pain and pleasure are united in your
+             perversions." """,
+            """"You know you can't keep me here." """,
+            """"Yet prophecy is upon us and I can't let you go." Cinteotl
+             clapped. A priest in a wheel chair rolled up to her side. He was a
+             man in his thirties, bald, white and devout, with the medallion of
+             the black moon upon his neck. His eyes blazed with conviction, but
+             he was a man, with a cock, and Aimiomode saw the inherent
+             inferiority of such a creature. She waited for the familire
+             glimmer behind the pupils, the birth of need.""",
+            """Restraint. Duty. Honor. Faith. Nothing else resided within this
+             sad passionless creature. He reminded her of her first husband,
+             and she despised him instantly, her mind creating vindictive ways
+             to unravel every civilized quality, to unhinge all his precious
+             restraint, until he became little more than the mindless thrusting
+             beast all males were.""",
+            """"This is the Shadow Mother." Cinteotl said.""",
+            """"Even now she seeks to undo me." the priest said.""",
+            """"I'm not what she says I am." Aimiomode replied, seeking to
+             plant seeds of doubt.""",
+            """"Do you see Markel?" Cinteotl asked the priest.""",
+            """"She is gifted with a snake's tongue and a brilliant cunning
+             mind." The man peered into her, looking past the physical
+             perfection, "She tempts with her words and plants dirty thoughts;
+             her voice is sex. She corrupts the emotions. She would amuse
+             herself by turning me from my proper place, to find murderous end
+             between her thighs, but not before I was stripped of every moral
+             posession and left a shadow of my former self." """,
+            """Aimiomode laughed out loud, a husky seductive sound, "Are all
+             your pets trained to talk like the bitch that raised them?" """,
+            """"As you can see, she honors nothing." Cinteotl said.""",
+            """Markel nodded, "An ignoble enemy." """,
+            """Aimiomode gave him a warm smile. "Fuck you." She looked for
+             it. But no, the sight of her smile did nothing for the man. It
+             perplexed her. Humilated her.""",
+            """Cinteotl seemed pleased with herself. "This Risen Father will
+             oversee your comings and goings mother. He has made the necessary
+             sacrifices to remain immune to your brand of corruption. Through
+             him you will have the freedom to roam the Cathedral grounds.
+             Of course, you will attempt to escape, but keep at the forefront
+             of your thoughts that as Markel has prepared for you, so I have
+             prepared for your children. They will be gathered and brought
+             here." """,
+            """"You would bring them to me?" Aimiomode asked suspciously.""",
+            """"To further my purpose." Cinteotl said. "Get to know Markel.
+             Examine his fortitude and find no flaw." The Vicar bowed with
+             respect to the priest, and he returned the gesture with a deeper
+             bow.""",
+            """"I will keep watch over The Great Harlot." Markel
+             promised.""",
+            """"Blessed be." Cinteotl whispered.""",
+            """Aimiomde burned with hate as she watched her daughter walk off
+             as if she were somehow better than the womb that borne her. She
+             brought her hateful eyes on the man in the wheel chair, aware of
+             the chain around her ankle that kept her from reaching him with
+             her nails and her teeth. This arrogant, filthy, little male,
+             carrying judgement in his eyes.""",
+            """"I will still be here when you are shit for the maggots... even
+             after you wither from memory and your bloodline fades. I will
+             still be here when your cities are dust. I will be here, and you
+             will be what you always were-nothing." She hissed.""",
+            """"Prophecy approaches. At the end of death you will simply be
+             known as the first harlot and the last whore. There will be
+             nothing special left of you except how greatly you failed."
+             Markel said.""",
+            """Aimiomde growled and cursed, and spat, reaching for him with
+             malicious intent, but the ankle chain held and the Priest in the
+             wheel chair simply watched her, unblinking."""
+        ],
+        "external_link": "https://vimeo.com/142309954",
+        "cover_img": "first_book_cover.jpg"
+    },
+    {
+        "id": 1134,
+        "title": "Child of Change",
+        "published_on": "",
+        "publisher": "",
+        "slug": "child-change",
+        "full_text": [
+            """Everything would be different.""",
+            """Everything would become singular, separate, and lonely. It felt
+             the totality of the betrayal, but it had no word for betrayal in
+             its own mind, no knowledge of the definition of things, just
+             feelings. The darkness squeezed against it, forcing it towards a
+             cold opening. The sweet fluids had betrayed it first, running
+             towards the unknown, making traction impossible for its tiny
+             fingers as it grasped at the contracting walls.""",
+            """<span class='italic'>"Pull it out!"</span>""",
+            """<span class='italic'>"Breathe and push! Push!"</span>""",
+            """<span class='italic'>"Mr. Brown, you are too close to the bed!
+             Please step away!"</span>""",
+            """It knew the voices of the outside people. It had heard them many
+             times in the distance, like the whispers between thoughts, a
+             constant noise without meaning to its ears. Now, for the first
+             time, it could hear them clearly. And this quickly became a
+             terrible thing, for the voices did have meaning, and behind that
+             meaning waited the end of its world.""",
+            """<span class='italic'>The world is Mother.</span>""",
+            """<span class='italic'>"Push! Push!"</span>""",
+            """Every contraction meant to push it towards the greedy void. It
+             fought with every part of itself, losing centimeter after
+             centimeter. The coldness grew ever closer, the terrible biting
+             chill, cruel and screaming with sound.""",
+            """<span class='italic'>"I can see its head, Mrs. Brown! You're
+             almost there!"</span>""",
+            """<span class='italic'>"Jesus! Is there supposed to be this much
+             blood?"</span>""",
+            """<span class='italic'>"Stand aside, Mr. Brown!"</span>""",
+            """<span class='italic'>"Is there supposed to be this much
+             blood!"</span>""",
+            """<span class='italic'>"Someone get him out of here!"</span>""",
+            """Cold brightness expanded across its face. It grasped the walls
+             of its perfect world as hard as it could.""",
+            """"Let go of me! Ellohaym, let go!" """,
+            """<span class='italic'>I am Ellohaym?</span> It must be. Mother
+             had used that sound many times before. <span class='italic'>Mother
+             is life. Mother is peace. Mother is love.</span>""",
+            """For Mother's sake, Ellohaym let go.""",
+            """The first moments were chaotic; it felt itself being lifted,
+             fluid dug out of its mouth by a gloved finger, so that it threw
+             up, so that it started wailing. Then something sharp severed the
+             link to Mother.""",
+            """"It's strong!" """,
+            """It fell forever, landing on something soft.""",
+            """"You dropped it!" """,
+            """"It's clearly a Dren, Mrs. Brown." """,
+            """"We knew..." Mother slurred. "We didn't have a choice..." """,
+            """Ellohaym pressed its naked body against its mother's thigh. It
+             nibbled at Mother with a toothless mouth, squeezed every inch of
+             itself against her in offering. It didn't want to be out here. It
+             wanted Mother, only Mother, and the peace inside her...""",
+            """Immense hands moved it to a warm bosom.""",
+            """"No!" """,
+            """Opening its eyes, Mother's face became Ellohaym's first miracle,
+             beautiful in a way the darkness had never been. But a beauty
+             without joy, and eyes wet with an angry panic. "No!" she wept.
+             "Don't give it to me! Get my husband! I want my husband!" """
+        ],
+        "external_link": "",
+        "cover_img": "child_of_change_cover.png"
+    },
+    {
+        "id": 3022,
+        "title": "Famine is a Dream",
+        "published_on": "",
+        "publisher": "",
+        "slug": "famine-dream",
+        "full_text": [
+            """He dreams of producing lack of grain,<br/>
+            of drinking the oceans dry.<br/>
+            He dreams of fat things made skinny,<br/>
+            of skinny things turned to corpses,<br/>
+            corpses turned to dust.""",
+            """He claims friendship to the thirsty man,<br/>
+            whose throat burns with want,<br/>
+            he claims kinship to the starving child,<br/>
+            whose belly hangs swollen with hunger,""",
+            """He calls himself friend,<br/>
+            although he cares nothing for their pain.""",
+            """He dreams of a world without friends,<br/>
+            a shrinking world,<br/>
+            without you or me.""",
+        ],
+        "center": True,
+        "external_link": "",
+        "cover_img": "book_icon.jpg"
+    },
+]
