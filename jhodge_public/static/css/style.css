@@ -108,6 +108,42 @@ main {
     min-height: 600px;
 }
 
+/* HOME SPLASH */
+
+#splash {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+#splash .horizontal-bar {
+    margin: 20px auto;
+}
+
+#splash-content {
+    position: absolute;
+    z-index: 99;
+    top: 245px;
+    width: 100%;
+}
+
+#splash-content-inner {
+    width: 40%;
+    min-width: 400px;
+    padding: 40px 20px;
+    background-color: rgba(0,0,0,0.7);
+    margin-left: 10%;
+    border: 10px solid rgba(0,0,0,0.3);
+}
+
+#splash li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #BBB;
+}
+
+/* OTHER */
+
 #content {
     padding-top: 15px;
 }
@@ -658,4 +694,15 @@ aside .clear-btn:hover {
 }
 .center-bar {
     margin: 20px auto 30px!important;
+}
+
+/* ABOUT PAGE */
+
+.about-external {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-external a {
+    color: red;
 }

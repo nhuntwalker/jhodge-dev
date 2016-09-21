@@ -2,6 +2,35 @@
 
 {% block content %}
 <main>
+    <section id="top-banner">
+        <div id="slider-content">
+            <ul id="slides">
+                {% for film in all_films %}
+                    {% if loop.first %}
+                        <li class="show">
+                    {% else %}
+                        <li>
+                    {% endif %}
+                    <img src="{{ film.screenshot_url }}" />
+                    <div class="slider-description">
+                        <h2>{{ film.title }}</h2>
+                        <div class="horizontal-bar white"></div>
+                        <p>
+                            {{ film.slider_text | safe }}
+                        </p>
+                        <button class="red-btn">
+                            <a href="{{ request.route_url('film_single', id=film.id) }}">More</a>
+                        </button>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+            <div id="slider-control">
+                <ul>
+                </ul>
+            </div>
+        </div>
+    </section>
     <section id="content">
         {% for film in all_films %}
         <div class="row film">
@@ -36,3 +65,7 @@
     </section>
 </main>
 {% endblock content %}
+
+{% block specific_scripts%}
+<script src="{{ request.static_path('jhodge_public:static/js/slider.js') }}"></script>
+{% endblock specific_scripts %}

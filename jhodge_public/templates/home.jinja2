@@ -2,67 +2,21 @@
 
 {% block content %}
 <main>
-    <section id="top-banner">
-        <div id="slider-content">
-            <ul id="slides">
-                {% for film in all_films %}
-                    {% if loop.first %}
-                        <li class="show">
-                    {% else %}
-                        <li>
-                    {% endif %}
-                    <img src="{{ film.screenshot_url }}" />
-                    <div class="slider-description">
-                        <h2>{{ film.title }}</h2>
-                        <div class="horizontal-bar white"></div>
-                        <p>
-                            {{ film.slider_text | safe }}
-                        </p>
-                        <button class="red-btn">
-                            <a href="{{ request.route_url('film_single', id=film.id) }}">More</a>
-                        </button>
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-            <div id="slider-control">
+    <section id="splash">
+        <img src="{{ request.static_path('jhodge_public:static/MEDIA/jhodge1.jpg') }}" />
+        <div id="splash-content">
+            <div id="splash-content-inner">
+                <h1>Jamal J. Hodge</h1>
+                <div class="horizontal-bar white"></div>
                 <ul>
+                    <li>Director</li>
+                    <li>Writer</li>
+                    <li>Producer</li>
+                    <li>omegahodge [at] gmail.com</li>
                 </ul>
             </div>
         </div>
     </section>
-    <section id="content">
-        {% for film in all_films %}
-        <div class="row home">
-            <div class="media-img">
-                <a href="{{ request.route_url('film_single', id=film.id) }}">
-                    <img src="{{ film.screenshot_url }}" />
-                </a>
-            </div>
-            <a href="{{ request.route_url('film_single', id=film.id) }}">
-                <div class="media-description">
-                    <h2>{{ film.title }}</h2>
-                    <i class="fa fa-video-camera media-type" aria-hidden="true"></i>
-                    <div class="horizontal-bar white"></div>
-                    <div class="media-meta full">
-                        <ul>
-                            <li>{{ film.release_date }}</li>
-                            <li>{{ film.production }}</li>
-                        </ul>
-                    </div>
-                    <div class="media-excerpt">
-                        <p>
-                            {{ film.home_text }}
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        {% endfor %}
-    </section>
 </main>
 {% endblock content %}
 
-{% block specific_scripts%}
-<script src="{{ request.static_path('jhodge_public:static/js/slider.js') }}"></script>
-{% endblock specific_scripts %}
