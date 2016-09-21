@@ -14,7 +14,7 @@ FILMS = [{
              good deed goes unpunished and innocence does not survive the jaws
              of life.""",
             """As a child I have known fear as one knows the laughter of their
-             mother. Growing up in the South Bronx during the crack era—where
+             mother. Growing up in the South Bronx during the crack era--where
              the addicted lumbered around like demons in human flesh, large in
              my tween eyes. They might have been people once... or maybe they
              had never been people at all.""",
