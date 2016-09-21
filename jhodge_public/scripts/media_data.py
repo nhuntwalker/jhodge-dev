@@ -146,7 +146,7 @@ FILMS = [{
     ],
     "excerpt": """A biopic series that follows the lives of real people as they
      begin a journey of faith...""",
-    "slider_text": "Modern Grace is a biopic series that follows the lives of real people as they begin a journey of faith searching for meaningful answers to some of life’s deepest challenges.",
+    "slider_text": "Modern Grace is a biopic series that follows the lives of real people as they begin a journey of faith searching for meaningful answers to some of life's deepest challenges.",
     "home_text": """A biopic series that follows the lives of real people as
      they begin a journey of faith searching for meaningful answers to some of
      life's deepest challenges.""",
@@ -201,8 +201,8 @@ WRITINGS = [
              desire." She smirked back, "The one thing stronger than your God
              is my pussy." """,
             """Cinteotl didn't flinch.""",
-            """“You know the pattern. You've seen it. This amusing little house
-             you've built will pull itself apart around me.” Aimiomode
+            """"You know the pattern. You've seen it. This amusing little house
+             you've built will pull itself apart around me." Aimiomode
              said.""",
             """"The Shadow Mother is cruel, frustrating, and catastrophic,
              bringing chaos to whatever roof accepts her." Cinteotl quoted her
@@ -337,7 +337,7 @@ WRITINGS = [
             """It fell forever, landing on something soft.""",
             """"You dropped it!" """,
             """"It's clearly a Dren, Mrs. Brown." """,
-            """"We knew..." Mother slurred. "We didn't have a choice…" """,
+            """"We knew..." Mother slurred. "We didn't have a choice..." """,
             """Ellohaym pressed its naked body against its mother's thigh. It
              nibbled at Mother with a toothless mouth, squeezed every inch of
              itself against her in offering. It didn't want to be out here. It
