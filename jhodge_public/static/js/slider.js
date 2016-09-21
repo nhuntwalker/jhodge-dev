@@ -1,5 +1,4 @@
-// $(document).ready(function(){
-setInterval(function(){
+$(document).ready(function(){
     var sliderBox = $("#slider-content"),
         sliderControl = $("#slider-control ul"),
         eachSlide = $("#slides li");
@@ -67,4 +66,4 @@ setInterval(function(){
     createSliderControls();
     cycleItems(3000);
     // resizeSlider();
-}, 1000);
+});

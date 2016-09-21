@@ -6,7 +6,11 @@
         <div id="slider-content">
             <ul id="slides">
                 {% for film in all_films %}
-                <li class="show">
+                    {% if loop.first %}
+                        <li class="show">
+                    {% else %}
+                        <li>
+                    {% endif %}
                     <img src="{{ film.screenshot_url }}" />
                     <div class="slider-description">
                         <h2>{{ film.title }}</h2>
