@@ -1,3 +1,5 @@
+from __future__ import unicode_literals
+
 FILMS = [{
     "title": "The Jump",
     "release_date": "",
