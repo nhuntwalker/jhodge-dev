@@ -110,13 +110,14 @@ def film_single(request):
     film = request.dbsession.query(Film).get(request.matchdict["id"])
     film.screenshot_url = get_media_path(request, film.screenshot)
     full_text = film.full_text.split("\r\n")
-    # import pdb; pdb.set_trace()
+    awards = film.awards.split("||")
 
     return {
         'project': 'jhodge_public',
         'film': True,
         'the_film': film,
-        "full_text": full_text
+        "full_text": full_text,
+        "awards": awards
     }
 
 

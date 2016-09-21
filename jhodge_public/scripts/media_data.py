@@ -32,7 +32,15 @@ Still haunted by the experience as an adult, Eric decides that the only way to
  In the water there was nothing he couldn't do. But a life-changing encounter
  with bullies at a pool plants seeds of self-doubt.""",
     "trailer": "http://www.thejumpshortfilm.com/",
-    "screenshot": "the_jump_cover.jpg"
+    "screenshot": "the_jump_cover.jpg",
+    "awards": [
+        "Black Star Film Festival",
+        "Short Audience Award from Black Star Film Festival",
+        "Martha's Vineyard African American Film Festival",
+        "Urban World Film Festival",
+        "The Damn Film Series",
+        "Baltimore International Black Film Festival",
+    ]
 },
     {
     "title": "The Kind Ones",
@@ -97,7 +105,12 @@ between a thriller and a horror movie. Fueled by a deliberate
      of color. She takes special interest in the protection and well being of
      Timothy, a foreign student fwho returns after every...""",
     "trailer": "http://www.primallinksmedia.com",
-    "screenshot": "the_kind_ones_screenshot.jpg"
+    "screenshot": "the_kind_ones_screenshot.jpg",
+    "awards": [
+        "Cannes Short Film Corner",
+        "Big Apple Film Festival",
+        "NYC Horror Film Festival"
+    ]
 }, {
     "title": "The Knockout Game",
     "release_date": "December 12, 2015",
@@ -158,7 +171,8 @@ between a thriller and a horror movie. Fueled by a deliberate
      whites and immigrants in Inner city communities. Gregory wants to play.
      He wants to get in good with G-Life's gang. He wants...""",
     "trailer": "https://vimeo.com/177583802",
-    "screenshot": "knockout_game_cover.jpg"
+    "screenshot": "knockout_game_cover.jpg",
+    "awards": []
 }, {
     "title": "Modern Grace",
     "release_date": "February 2, 2016",
@@ -190,7 +204,8 @@ between a thriller and a horror movie. Fueled by a deliberate
  they begin a journey of faith searching for meaningful answers to some of
  life's deepest challenges.""",
     "trailer": "https://vimeo.com/153945224",
-    "screenshot": "modern_grace_cover.png"
+    "screenshot": "modern_grace_cover.png",
+    "awards": []
 }, {
     "title": "The Last Doctor",
     "release_date": "",
@@ -223,7 +238,8 @@ while teaching them the...""",
  you to realize his life's greatest lesson: that despite the tragedies we all
  face, life itself is the reward.""",
     "trailer": "https://vimeo.com/156430872",
-    "screenshot": "the_last_doctor.jpg"
+    "screenshot": "the_last_doctor.jpg",
+    "awards": []
 }]
 
 WRITINGS = [

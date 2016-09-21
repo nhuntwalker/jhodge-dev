@@ -22,6 +22,7 @@ class Film(Base):
     full_text = Column(Unicode)
     trailer = Column(Unicode)
     screenshot = Column(Unicode)
+    awards = Column(Unicode)
 
 
 Index('film_idx', Film.title, unique=True, mysql_length=255)

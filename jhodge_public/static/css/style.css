@@ -619,6 +619,15 @@ fieldset:first-child {
     font-size: 1.2em;
 }
 
+#festival-awards {
+    margin-bottom: 15px;
+}
+
+#festival-awards img {
+    width: 70px;
+    padding: 0 10px;
+}
+
 .film-description {
     line-height: 1.4em;
 }
