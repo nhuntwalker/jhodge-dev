@@ -1,4 +1,4 @@
-$(document).ready(function(){
+// $(document).ready(function(){
     var sliderBox = $("#slider-content"),
         sliderControl = $("#slider-control ul"),
         eachSlide = $("#slides li");
@@ -66,4 +66,4 @@ $(document).ready(function(){
     createSliderControls();
     cycleItems(3000);
     // resizeSlider();
-});
+// });

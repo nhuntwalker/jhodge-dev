@@ -18,7 +18,9 @@
                         <p>
                             {{ film.slider_text | safe }}
                         </p>
-                        <button class="red-btn"><a href="{{ request.route_url('film_single', id=film.id) }}">More</a></button>
+                        <button class="red-btn">
+                            <a href="{{ request.route_url('film_single', id=film.id) }}">More</a>
+                        </button>
                     </div>
                 </li>
                 {% endfor %}
