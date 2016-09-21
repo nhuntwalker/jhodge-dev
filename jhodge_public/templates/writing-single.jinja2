@@ -23,19 +23,19 @@
         <article class="space-filler"></article>
         <article class="writing-excerpt">
             {% if the_writing.center %}
-            <h2 class="center-text">{{ the_writing.title }}</h2>
-            <div class="horizontal-bar white center-bar"></div>
+                <h2 class="center-text">{{ the_writing.title }}</h2>
+                <div class="horizontal-bar white center-bar"></div>
             {% else %}
-            <h2>Excerpt from {{ the_writing.title }}</h2>
-            <div class="horizontal-bar white"></div>
+                <h2>Excerpt from {{ the_writing.title }}</h2>
+                <div class="horizontal-bar white"></div>
             {% endif %}
-            {% for paragraph in the_writing.full_text %}
+
             {% if the_writing.center %}
-            <p class="center-text">{{ paragraph | safe}}</p>
+                <p class="center-text">{{ the_writing.full_text | safe}}</p>
             {% else %}
-            <p>{{ paragraph | safe}}</p>
+                <p>{{ the_writing.full_text | safe}}</p>
             {% endif %}
-            {% endfor %}
+
         </article>
     </section>
 </main>

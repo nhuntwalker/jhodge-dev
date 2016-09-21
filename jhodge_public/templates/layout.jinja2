@@ -31,14 +31,14 @@
                 <a href="{{ request.route_url('home') }}"><li>Home</li></a>
             {% endif %}
             {% if film %}
-                <a href="{{ request.route_url('film') }}"><li class="active">Film</li></a>
+                <a href="{{ request.route_url('films') }}"><li class="active">Film</li></a>
             {% else %}
-                <a href="{{ request.route_url('film') }}"><li>Film</li></a>
+                <a href="{{ request.route_url('films') }}"><li>Film</li></a>
             {% endif %}
             {% if writing %}
-                <a href="{{ request.route_url('writing') }}"><li class="active">Writing</li></a>
+                <a href="{{ request.route_url('writings') }}"><li class="active">Writing</li></a>
             {% else %}
-                <a href="{{ request.route_url('writing') }}"><li>Writing</li></a>
+                <a href="{{ request.route_url('writings') }}"><li>Writing</li></a>
             {% endif %}
             {% if about %}
                 <a href="{{ request.route_url('about') }}"><li class="active">About</li></a>

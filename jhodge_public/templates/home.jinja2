@@ -5,42 +5,19 @@
     <section id="top-banner">
         <div id="slider-content">
             <ul id="slides">
+                {% for film in all_films %}
                 <li class="show">
-                    <img src="{{ request.static_path('jhodge_public:static/MEDIA/the_kind_ones_screenshot.jpg') }}" />
+                    <img src="{{ film.screenshot_url }}" />
                     <div class="slider-description">
-                        <h2>The Kind Ones</h2>
+                        <h2>{{ film.title }}</h2>
                         <div class="horizontal-bar white"></div>
                         <p>
-                            Mrs. Andrews is a caring and passionate teacher at a school of color. She takes special interest in the protection and well being of Timothy, a foreign student fwho returns after every failed test with cruel bruises. Soon she finds herself on the dark path of agonies, where kindness is for prey, and the predators savor human delights.
+                            {{ film.slider_text | safe }}
                         </p>
-                        <button class="red-btn"><a href="{{ request.route_url('film_single', id=7872) }}">More</a></button>
+                        <button class="red-btn"><a href="{{ request.route_url('film_single', id=film.id) }}">More</a></button>
                     </div>
                 </li>
-                <li>
-                    <img src="{{ request.static_path('jhodge_public:static/MEDIA/modern_grace_cover.png') }}" />
-                    <div class="slider-description">
-                        <h2>Modern Grace</h2>
-                        <div class="horizontal-bar white"></div>
-                        <p>
-                            Modern Grace is a biopic series that follows the lives of real people as they begin a journey of faith searching for meaningful answers to some of life’s deepest challenges.
-                        </p>
-                        <button class="red-btn"><a href="{{ request.route_url('film_single', id=7872) }}">More</a></button>
-                    </div>
-                </li>
-                <li>
-                    <img src="{{ request.static_path('jhodge_public:static/MEDIA/knockout_game_cover.jpg') }}" />
-                    <div class="slider-description">
-                        <h2>The Knockout Game</h2>
-                        <div class="horizontal-bar white"></div>
-                        <p>
-                            A disturbing and brutal game amongst teens, targeting whites and immigrants in Inner city communities. 
-                        </p>
-                        <p>
-                            The Knockout Game is a cautionary tale that explores the price of violence with an unflinching eye.
-                        </p>
-                        <button class="red-btn"><a href="{{ request.route_url('film_single', id=7872) }}">More</a></button>
-                    </div>
-                </li>
+                {% endfor %}
             </ul>
             <div id="slider-control">
                 <ul>
@@ -76,84 +53,6 @@
             </a>
         </div>
         {% endfor %}
-{#         <div class="row home">
-            <div class="media-img">
-                <a href="{{ request.route_url('film_single', id=7872) }}">
-                    <img src="{{ request.static_path('jhodge_public:static/MEDIA/the_kind_ones_screenshot.jpg') }}" />
-                </a>
-            </div>
-            <a href="{{ request.route_url('film_single', id=7872) }}">
-                <div class="media-description">
-                    <h2>The Kind Ones</h2>
-                    <i class="fa fa-video-camera media-type" aria-hidden="true"></i>
-                    <div class="horizontal-bar white"></div>
-                    <div class="media-meta full">
-                        <ul>
-                            <li>Coming 2016</li>
-                            <li>Director</li>
-                            <li>Primal Links Media</li>
-                        </ul>
-                    </div>
-                    <div class="media-excerpt">
-                        <p>
-                            Mrs. Andrews is a caring and passionate teacher at a school of color. She takes special interest in the protection and well being of Timothy, a foreign student fwho returns after every...
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="row home">
-            <div class="media-img">
-                <a href="{{ request.route_url('film_single', id=7872) }}">
-                    <img src="{{ request.static_path('jhodge_public:static/MEDIA/modern_grace_cover.png') }}" />
-                </a>
-            </div>
-            <a href="{{ request.route_url('film_single', id=7872) }}">
-                <div class="media-description">
-                    <h2>Modern Grace</h2>
-                    <i class="fa fa-video-camera media-type" aria-hidden="true"></i>
-                    <div class="horizontal-bar white"></div>
-                    <div class="media-meta full">
-                        <ul>
-                            <li>February 2, 2016</li>
-                            <li>Director</li>
-                            <li>Primal Links Media</li>
-                        </ul>
-                    </div>
-                    <div class="media-excerpt">
-                        <p>
-                            A biopic series that follows the lives of real people as they begin a journey of faith searching for meaningful answers to some of life’s deepest challenges.
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="row home">
-            <div class="media-img">
-                <a href="{{ request.route_url('film_single', id=7872) }}">
-                    <img src="{{ request.static_path('jhodge_public:static/MEDIA/knockout_game_cover.jpg') }}" />
-                </a>
-            </div>
-            <a href="{{ request.route_url('film_single', id=7872) }}">
-                <div class="media-description">
-                    <h2>The Knockout Game</h2>
-                    <i class="fa fa-video-camera media-type" aria-hidden="true"></i>
-                    <div class="horizontal-bar white"></div>
-                    <div class="media-meta full">
-                        <ul>
-                            <li>2015</li>
-                            <li>Director</li>
-                            <li>Primal Links Media</li>
-                        </ul>
-                    </div>
-                    <div class="media-excerpt">
-                        <p>
-                            A disturbing and Brutal game amongst teens, targeting whites and immigrants in Inner city communities. Gregory wants to play. He wants to get in good with G-Life’s gang. He wants...
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div> #}
     </section>
 </main>
 {% endblock content %}

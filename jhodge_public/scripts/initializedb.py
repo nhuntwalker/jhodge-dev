@@ -5,7 +5,7 @@ import transaction
 from pyramid.paster import (
     get_appsettings,
     setup_logging,
-    )
+)
 
 from pyramid.scripts.common import parse_vars
 
@@ -14,12 +14,17 @@ from ..models import (
     get_engine,
     get_session_factory,
     get_tm_session,
-    )
+)
 from ..models import (
     Writing,
     Film,
     Contact
-    )
+)
+
+from .media_data import (
+    FILMS,
+    WRITINGS,
+)
 
 
 def usage(argv):
@@ -38,12 +43,41 @@ def main(argv=sys.argv):
     settings = get_appsettings(config_uri, options=options)
 
     engine = get_engine(settings)
+    Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
 
     session_factory = get_session_factory(engine)
 
-    # with transaction.manager:
-    #     dbsession = get_tm_session(session_factory, transaction.manager)
+    with transaction.manager:
+        dbsession = get_tm_session(session_factory, transaction.manager)
 
-    #     model = MyModel(name='one', value=1)
-    #     dbsession.add(model)
+        add_these = []
+
+        for film in FILMS:
+            new_film = Film(
+                title=film["title"],
+                release_date=film["release_date"],
+                production=film["production"],
+                slug=film["slug"],
+                excerpt=film["excerpt"],
+                slider_text=film["slider_text"],
+                home_text=film["home_text"],
+                full_text="\r\n".join(film["full_text"]),
+                trailer=film["trailer"],
+                screenshot=film["screenshot"]
+            )
+            add_these.append(new_film)
+
+        for writing in WRITINGS:
+            new_script = Writing(
+                title=writing["title"],
+                published_on=writing["published_on"],
+                publisher=writing["publisher"],
+                slug=writing["slug"],
+                full_text="\r\n".join(writing["full_text"]),
+                external_link=writing["external_link"],
+                cover_img=writing["cover_img"]
+            )
+            add_these.append(new_script)
+
+        dbsession.add_all(add_these)

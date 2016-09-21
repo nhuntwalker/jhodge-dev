@@ -13,16 +13,15 @@ class Film(Base):
     __tablename__ = 'films'
     id = Column(Integer, primary_key=True)
     title = Column(Unicode)
-    slug = Column(Unicode)
-    release_date = Column(Date)
+    release_date = Column(Unicode)
     production = Column(Unicode)
-    production_link = Column(Unicode)
-    director = Column(Unicode)
-    cast = Column(Unicode)
+    slug = Column(Unicode)
     excerpt = Column(Unicode)
+    slider_text = Column(Unicode)
+    home_text = Column(Unicode)
     full_text = Column(Unicode)
     trailer = Column(Unicode)
-    snapshot = Column(Unicode)
+    screenshot = Column(Unicode)
 
 
 Index('film_idx', Film.title, unique=True, mysql_length=255)
