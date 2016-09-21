@@ -8,7 +8,7 @@ FILMS = [{
     "slug": "the-jump",
     "full_text": [
         """As a child Eric believed that the water was magical.
- In the water there was nothing he couldn’t do. But a life-changing encounter
+ In the water there was nothing he couldn't do. But a life-changing encounter
  with bullies at a pool plants seeds of self-doubt. Still haunted by the experience
  as an adult, Eric decides that the only way to take back control over his life is
  to get back into the water. If he can face his fears 30-feet above the water, then
@@ -20,7 +20,7 @@ FILMS = [{
  In the water there was nothing...""",
     "slider_text": """
 <p>
-In the water there was nothing he couldn’t do. But a life-changing encounter
+In the water there was nothing he couldn't do. But a life-changing encounter
  with bullies at a pool plants seeds of self-doubt.
 </p>
 <p>
@@ -29,7 +29,7 @@ Still haunted by the experience as an adult, Eric decides that the only way to
 </p>
 """,
     "home_text": """As a child Eric believed that the water was magical.
- In the water there was nothing he couldn’t do. But a life-changing encounter
+ In the water there was nothing he couldn't do. But a life-changing encounter
  with bullies at a pool plants seeds of self-doubt.""",
     "trailer": "http://www.thejumpshortfilm.com/",
     "screenshot": "the_jump_cover.jpg"
