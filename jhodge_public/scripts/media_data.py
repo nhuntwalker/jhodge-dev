@@ -479,6 +479,6 @@ AWARDS = {
     "NYC Horror Film Festival": "laurels/nyc_horror_2016.png",
     "The Damn Film Series": "laurels/damn_film_series_2016.jpg",
     "Cannes Short Film Corner": "laurels/cannes_2016.jpg",
-    "Big Apple Film Festival": "",
+    "Big Apple Film Festival": "laurels/baff_2016.png",
 
 }
