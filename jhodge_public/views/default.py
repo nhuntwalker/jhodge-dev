@@ -111,6 +111,7 @@ def film_single(request):
     film.screenshot_url = get_media_path(request, film.screenshot)
     full_text = film.full_text.split("\r\n")
     awards = film.awards.split("||")
+    # import pdb; pdb.set_trace()
 
     return {
         'project': 'jhodge_public',

@@ -469,3 +469,16 @@ WRITINGS = [
         "cover_img": "book_icon.jpg"
     },
 ]
+
+AWARDS = {
+    "Black Star Film Festival": "laurels/bsff_2016.png",
+    "Short Audience Award from Black Star Film Festival": "laurels/bsff_2016_audience_short_narr.png",
+    "Martha's Vineyard African American Film Festival": "laurels/mvaaff_2016.png",
+    "Urban World Film Festival": "laurels/urban_world_2016.png",
+    "Baltimore International Black Film Festival": "laurels/bibff_2016.png",
+    "NYC Horror Film Festival": "laurels/nyc_horror_2016.png",
+    "The Damn Film Series": "laurels/damn_film_series_2016.jpg",
+    "Cannes Short Film Corner": "laurels/cannes_2016.jpg",
+    "Big Apple Film Festival": "",
+
+}

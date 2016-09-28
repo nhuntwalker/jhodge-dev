@@ -5,19 +5,23 @@
     <section id="content">
         {% for writing in all_writings %}
         <div class="item-writing">
-            <div class="writing-thumb">
-                <img src="{{ writing.cover_url }}" />
-                <div class="writing-hover">
-                    <a href="{{ request.route_url('writing_single', id=writing.id) }}">
-                        Read
+            <div class="item-writing-inner">
+                <p>{{ writing.title }}</p>
+                <p class="link-out">
+                    <a href="#">
+                        <i class="fa fa-plus-square-o" aria-hidden="true"></i>
                     </a>
-                </div>
+                </p>
             </div>
-            <a href="{{ request.route_url('writing_single', id=writing.id) }}">
-                <div class="writing-item-description">
-                    <h2>{{ writing.title }}</h2>
-                </div>
-            </a>
+        </div>
+        {% if loop.first %}
+        <div class="writing-text selected">
+        {% else %}
+        <div class="writing-text">
+        {% endif %}
+            <div class="writing-text-container">
+                {{ writing.full_text|safe }}
+            </div>
         </div>
         {% endfor %}
     </section>

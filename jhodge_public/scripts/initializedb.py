@@ -24,6 +24,7 @@ from ..models import (
 from .media_data import (
     FILMS,
     WRITINGS,
+    AWARDS
 )
 
 
@@ -56,6 +57,7 @@ def main(argv=sys.argv):
 
         for film in FILMS:
             # import pdb; pdb.set_trace()
+            film_awards = [AWARDS[award] for award in film["awards"]]
             new_film = Film(
                 title=film["title"],
                 release_date=film["release_date"],
@@ -67,7 +69,7 @@ def main(argv=sys.argv):
                 full_text="\r\n".join(film["full_text"]),
                 trailer=film["trailer"],
                 screenshot=film["screenshot"],
-                awards="||".join(film["awards"])
+                awards="||".join(film_awards)
             )
             add_these.append(new_film)
 

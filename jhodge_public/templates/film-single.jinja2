@@ -14,9 +14,13 @@
             <div class="horizontal-bar white"></div>
             <div class="media-meta film">
                 <div id="festival-awards">
-                    {% for award in awards %}
-                        <img src="{{ request.static_path('jhodge_public:static/MEDIA/laurel_leaves_white.png') }}" />
-                    {% endfor %}
+                    {% if awards %}
+                        {% for award in awards %}
+                            {% if award %}
+                                <img src="{{ request.static_path('jhodge_public:static/MEDIA/')}}{{ award }}" />
+                            {% endif %}
+                        {% endfor %}
+                   {% endif %} 
                 </div>
                 <ul>
                     <li>Watch the trailer <a href="{{ the_film.trailer }}"><i class="fa fa-film" aria-hidden="true"></i></a></li>

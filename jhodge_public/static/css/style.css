@@ -367,17 +367,45 @@ main {
 
 /* WRITING PAGE */
 .item-writing {
-    width: 40%;
+    width: 250px;
+    height: 250px;
     float: left;
-    margin-top: 20px;
+    margin: 20px 2.5%;
+    text-align: center;
+    background-color: rgb(150, 0, 0);
+    color: white;
 }
-.item-writing:nth-child(odd){
-    margin-left: 7.5%;
-    margin-right: 2.5%;
+.item-writing-inner {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-size: 26px;
+    line-height: 1.3em;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(90, 0, 0);
 }
-.item-writing:nth-child(even){
-    margin-right: 7.5%;
-    margin-left: 2.5%;
+.link-out {
+    margin-top: 15px;
+    font-size: 40px;
+}
+.writing-text {
+    position: fixed;
+    top: 100px;
+    display: none;
+}
+.writing-text.selected {
+    display: block;
+    z-index: 99;
+    width: 100%;
+}
+.writing-text-container {
+    width: 50%;
+    margin: 0 auto;
+    overflow-y: scroll;
+    height: 500px;
 }
 
 .writing-thumb {
@@ -624,7 +652,7 @@ fieldset:first-child {
 }
 
 #festival-awards img {
-    width: 70px;
+    height: 100px;
     padding: 0 10px;
 }
 
