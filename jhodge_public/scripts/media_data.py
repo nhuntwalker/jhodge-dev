@@ -58,41 +58,9 @@ between a thriller and a horror movie. Fueled by a deliberate
  sake. It will haunt the viewer long after the final frame, for no
  good deed goes unpunished and innocence does not survive the jaws
  of life.""",
-            """As a child I have known fear as one knows the laughter of their
- mother. Growing up in the South Bronx during the crack era--where
- the addicted lumbered around like demons in human flesh, large in
- my tween eyes. They might have been people once... or maybe they
- had never been people at all.""",
-            """A brief stint in New York City's foster care system showed me
- how "good" people could change once the light of public scrutiny
- disappeared. In the darkness of their true selves, they could
- enact cruel tortures on the most innocent among them.""",
-            """I believed in monsters then, because I knew them by name, and
- now I want you to believe in them too. The Kind Ones is rooted in
- the darkest Taboo, asking the viewer a devil's question: Is human
- compassion a weakness that reduces us to prey?""",
-            """As we follow the journey of Mrs. Andrews to save Timothy from
- his abusive parents, and ultimately to save him from his own
- nature, the darkness inside us echos Mrs. Byleth's silky lullaby,
- "The young ones are the sweetest, The fat ones are the meatiest,
- The Kind Ones are the easiest." """,
-            """This short film intentionally speaks softly of murder and
- betrayal. It gives a twisted spin on gentrification and the
- xenophobia inherent in the faces of the "other". The Byleth
- family hail from the "old country". They move into a
- predominantly Black neighborhood and the town eerily becomes
- still... empty... with few of its original inhabitants left.""",
-            """Timothy tries to fit in to his new community but he is rejected;
- a pariah. Only Mrs. Andrews stands up for him and is willing to
- confront the wrongs. But the question remains, this time deeper...
- is human compassion a weakness? And sometimes, are the
- "different" among us actually a threat?""",
-            """I wrote this film to disturb the viewer; to thrust him/her into
- a place where logic trembles. It is the first step in an expansive
- world of horror where fallen angels walk among us calling
- themselves the Nephilim.""",
-            """This film is merely an invitation.""",
-            """Take my hand and let's skip through the valley of death.""",
+            """When Mrs. Andrews intervenes in the life of her abused student
+ Timothy, she becomes the guest of his strange family and their predatory
+ delights."""
     ],
     "excerpt": """The Kind Ones is a dark thriller, meaning it lands somewhere
      in between a thriller and a...""",
@@ -478,7 +446,7 @@ AWARDS = {
     "Baltimore International Black Film Festival": "laurels/bibff_2016.png",
     "NYC Horror Film Festival": "laurels/nyc_horror_2016.png",
     "The Damn Film Series": "laurels/damn_film_series_2016.jpg",
-    "Cannes Short Film Corner": "laurels/cannes_2016.jpg",
+    "Cannes Short Film Corner": "laurels/cannes_2016.png",
     "Big Apple Film Festival": "laurels/baff_2016.png",
 
 }
