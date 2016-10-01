@@ -14,10 +14,10 @@
             <title>Jamal Hodge | Film</title>
         {% elif about %}
             <title>Jamal Hodge | About</title>
-<!--        {% elif writing %}
-            <title>Jamal Hodge | Writing</title>-->
-<!--        {% elif contact %}
-            <title>Jamal Hodge | Contact</title>-->
+        {% elif writing %}
+            <title>Jamal Hodge | Writing</title>
+        {% elif contact %}
+            <title>Jamal Hodge | Contact</title>
         {% else %}
             <title>Jamal Hodge</title>            
         {% endif %}
@@ -42,6 +42,7 @@
             {% else %}
                 <a href="{{ request.route_url('about') }}"><li>About</li></a>
             {% endif %}
+            </ul>
             
 <!--             {% if writing %}
                 <a href="{{ request.route_url('writings') }}"><li class="active">Writing</li></a>
@@ -55,7 +56,6 @@
                 <a href="{{ request.route_url('contact') }}"><li>Contact</li></a>
             {% endif %} -->
 
-            </ul>
             <ul id="social-media">
                 <li>
                     <a href="https://www.facebook.com/Primal-Links-Media-151766004494/">
