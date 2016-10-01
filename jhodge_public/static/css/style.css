@@ -332,6 +332,11 @@ main {
 }
 .film-still img {
     height: 100%;
+    width: 900px;
+}
+.film-still img.special {
+    position: relative;
+    top: -75px;
 }
 .film-still {
     width: 100%;

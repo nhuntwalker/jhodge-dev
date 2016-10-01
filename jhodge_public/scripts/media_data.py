@@ -32,7 +32,8 @@ Still haunted by the experience as an adult, Eric decides that the only way to
  In the water there was nothing he couldn't do. But a life-changing encounter
  with bullies at a pool plants seeds of self-doubt.""",
     "trailer": "http://www.thejumpshortfilm.com/",
-    "screenshot": "the_jump_cover.jpg",
+    "screenshot": "the_jump_cover2.jpg",
+    "mini_screenshot": "the_jump_cover2.jpg",
     "awards": [
         "Black Star Film Festival",
         "Short Audience Award from Black Star Film Festival",
@@ -45,7 +46,6 @@ Still haunted by the experience as an adult, Eric decides that the only way to
     {
     "title": "The Kind Ones",
     "release_date": "Coming 2016",
-
     "production": "Primal Links Media",
     "id": 8246,
     "slug": "kind-ones",
@@ -74,6 +74,7 @@ between a thriller and a horror movie. Fueled by a deliberate
      Timothy, a foreign student fwho returns after every...""",
     "trailer": "http://www.primallinksmedia.com",
     "screenshot": "the_kind_ones_screenshot.jpg",
+    "mini_screenshot": "the_kind_ones_screenshot.jpg",
     "awards": [
         "Cannes Short Film Corner",
         "Big Apple Film Festival",
@@ -140,6 +141,7 @@ between a thriller and a horror movie. Fueled by a deliberate
      He wants to get in good with G-Life's gang. He wants...""",
     "trailer": "https://vimeo.com/177583802",
     "screenshot": "knockout_game_cover.jpg",
+    "mini_screenshot": "knockout_game_cover.jpg",
     "awards": []
 }, {
     "title": "Modern Grace",
@@ -173,6 +175,7 @@ between a thriller and a horror movie. Fueled by a deliberate
  life's deepest challenges.""",
     "trailer": "https://vimeo.com/153945224",
     "screenshot": "modern_grace_cover.png",
+    "mini_screenshot": "modern_grace_cover.png",
     "awards": []
 }, {
     "title": "The Last Doctor",
@@ -206,7 +209,7 @@ while teaching them the...""",
  you to realize his life's greatest lesson: that despite the tragedies we all
  face, life itself is the reward.""",
     "trailer": "https://vimeo.com/156430872",
-    "screenshot": "the_last_doctor.jpg",
+    "screenshot": "the_last_doctor2.jpg",
     "awards": []
 }]
 

@@ -36,7 +36,7 @@
         <div class="row film">
             <div class="film-still">
                 <a href="{{ request.route_url('film_single', id=film.id) }}">
-                    <img src="{{ film.screenshot_url }}" />
+                    <img src="{{ film.screenshot_url }}" {% if "Last Doctor" in film.title %}class="special"{% endif %}/>
                     {# <div class="video-btn">
                         <img src="{{ request.static_path('jhodge_public:static/STATIC_FILES/video-play-button.png') }}" />
                     </div> #}

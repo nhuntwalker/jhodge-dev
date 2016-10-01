@@ -12,12 +12,12 @@
             <title>Jamal Hodge | Home</title>
         {% elif film %}
             <title>Jamal Hodge | Film</title>
-        {% elif writing %}
-            <title>Jamal Hodge | Writing</title>
         {% elif about %}
             <title>Jamal Hodge | About</title>
-        {% elif contact %}
-            <title>Jamal Hodge | Contact</title>
+<!--        {% elif writing %}
+            <title>Jamal Hodge | Writing</title>-->
+<!--        {% elif contact %}
+            <title>Jamal Hodge | Contact</title>-->
         {% else %}
             <title>Jamal Hodge</title>            
         {% endif %}
@@ -30,21 +30,25 @@
             {% else %}
                 <a href="{{ request.route_url('home') }}"><li>Home</li></a>
             {% endif %}
+
             {% if film %}
                 <a href="{{ request.route_url('films') }}"><li class="active">Film</li></a>
             {% else %}
                 <a href="{{ request.route_url('films') }}"><li>Film</li></a>
             {% endif %}
-            {% if writing %}
-                <a href="{{ request.route_url('writings') }}"><li class="active">Writing</li></a>
-            {% else %}
-                <a href="{{ request.route_url('writings') }}"><li>Writing</li></a>
-            {% endif %}
+
             {% if about %}
                 <a href="{{ request.route_url('about') }}"><li class="active">About</li></a>
             {% else %}
                 <a href="{{ request.route_url('about') }}"><li>About</li></a>
             {% endif %}
+            
+<!--             {% if writing %}
+                <a href="{{ request.route_url('writings') }}"><li class="active">Writing</li></a>
+            {% else %}
+                <a href="{{ request.route_url('writings') }}"><li>Writing</li></a>
+            {% endif %} -->
+
 <!--             {% if contact %}
                 <a href="{{ request.route_url('contact') }}"><li class="active">Contact</li></a>
             {% else %}
@@ -53,11 +57,31 @@
 
             </ul>
             <ul id="social-media">
-                <li><a href="https://www.facebook.com/Primal-Links-Media-151766004494/"><i class="fa fa-facebook-official"></i></a></li>
-                <li><a href="https://twitter.com/directorhodge"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://www.instagram.com/directorh/"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="http://www.imdb.com/name/nm0388071/"><img src="{{ request.static_path('jhodge_public:static/STATIC_FILES/imdb-bw.png') }}" /></a></li>
-                <li><a href="https://www.linkedin.com/in/jamal-hodge-891055b"><i class="fa fa-linkedin"></i></a></li>
+                <li>
+                    <a href="https://www.facebook.com/Primal-Links-Media-151766004494/">
+                        <i class="fa fa-facebook-official"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/directorhodge">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/directorh/">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.imdb.com/name/nm0388071/">
+                        <img src="{{ request.static_path('jhodge_public:static/STATIC_FILES/imdb-bw.png') }}" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/jamal-hodge-891055b">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
             </ul>
         </nav>
         {% block content%}{% endblock content%}
