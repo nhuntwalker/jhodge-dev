@@ -484,7 +484,7 @@ AWARDS = {
     "Urban World Film Festival": "laurels/urban_world_2016.png",
     "Baltimore International Black Film Festival": "laurels/bibff_2016.png",
     "NYC Horror Film Festival": "laurels/nyc_horror_2016.png",
-    "The Damn Film Series": "laurels/damn_film_series_2016.png",
+    "The Damn Film Series": "laurels/damn_film_series_2016_white.png",
     "Cannes Short Film Corner": "laurels/cannes_2016.png",
     "Big Apple Film Festival": "laurels/baff_2016.png",
 
