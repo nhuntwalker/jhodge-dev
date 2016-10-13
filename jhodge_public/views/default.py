@@ -87,7 +87,7 @@ def contact(request):
 def films(request):
     """Display data to the Film page."""
     films = request.dbsession.query(Film).all()
-    slider_titles = ["the jump", "the kind ones", "the knockout game"]
+    slider_titles = ["the jump", "the kind ones", "the knockout game", "threading needles"]
     slider_films = []
 
     for film in films:

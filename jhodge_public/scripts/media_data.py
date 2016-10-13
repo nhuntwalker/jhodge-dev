@@ -66,8 +66,8 @@ between a thriller and a horror movie. Fueled by a deliberate
      in between a thriller and a...""",
     "slider_text": """Mrs. Andrews is a caring and passionate teacher at a
      school of color. She takes special interest in the protection and well
-     being of Timothy, a foreign student fwho returns after every failed test 
-     with cruel bruises. Soon she finds herself on the dark path of agonies, 
+     being of Timothy, a foreign student fwho returns after every failed test
+     with cruel bruises. Soon she finds herself on the dark path of agonies,
      where kindness is for prey, and the predators savor human delights.""",
     "home_text": """Mrs. Andrews is a caring and passionate teacher at a school
      of color. She takes special interest in the protection and well being of
@@ -131,7 +131,7 @@ between a thriller and a horror movie. Fueled by a deliberate
      unflinching eye.""",
     "slider_text": """
 <p>
-    A disturbing and brutal game amongst teens, targeting whites and immigrants in Inner city communities. 
+    A disturbing and brutal game amongst teens, targeting whites and immigrants in Inner city communities.
 </p>
 <p>
     The Knockout Game is a cautionary tale that explores the price of violence with an unflinching eye.
@@ -211,6 +211,42 @@ while teaching them the...""",
     "trailer": "https://vimeo.com/156430872",
     "screenshot": "the_last_doctor2.jpg",
     "awards": []
+}, {
+    "title": "Threading Needles",
+    "release_date": "February 2, 2011",
+    "production": "Primal Links Media",
+    "id": 4321,
+    "slug": "threading-needles",
+    "full_text": ["""
+Threading Needles is a cross between "Crash" and "Lakeview Terrace".
+Kweku, a young African man, falls in love with a white woman in America.
+All seems to be going well until he is faced with two ruthless cops with a cruel agenda,
+a white cop who despises what the couple represents and a black cop who considers Kweku a sellout.""",
+                  """
+Kweku is forced to make a decision which will alter not just his own life, but the lives of those who loves most.
+Will he be able to hold on to his ideals, or will he be consumed by his quest for revenge against those who stand in his way?
+This movie will shed light on modern racism in America and the world as a whole, challenging the viewer
+to reexamine the deep conflicts and emotions that exist within today's socioeconomic landscape.
+"""],
+    "excerpt": """"Threading Needles" captures modern racism in America
+and the world as a whole...""",
+    "slider_text": """
+Threading Needles is a cross between "Crash" and "Lakeview Terrace".
+Kweku, a young African man, falls in love with a white woman in America.
+All seems to be going well until he is faced with two ruthless cops with a cruel agenda,
+a white cop who despises what the couple represents and a black cop who considers Kweku a sellout.""",
+    "home_text": """
+Threading Needles is a cross between "Crash" and "Lakeview Terrace".
+Kweku, a young African man, falls in love with a white woman in America.
+All seems to be going well until he is faced with two ruthless cops with a cruel agenda,
+a white cop who despises what the couple represents and a black cop who considers Kweku a sellout.""",
+    "trailer": "https://vimeo.com/22107242",
+    "screenshot": "threading_needles.png",
+    "awards": [
+        # "Los Angeles Movie Awards",
+        # "East Harlem International Film Festival",
+        # "Hollywood Black Film Festival"
+    ]
 }]
 
 WRITINGS = [
