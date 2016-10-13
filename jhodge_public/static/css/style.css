@@ -2,7 +2,7 @@ body {
     font-family: Helvetica;
     font-weight: lighter;
     min-width: 1000px; /* kill this later */
-    background-color: black;
+    /*background-color: black;*/
 }
 
 a {
