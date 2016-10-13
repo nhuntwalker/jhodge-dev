@@ -2,7 +2,7 @@ body {
     font-family: Helvetica;
     font-weight: lighter;
     min-width: 1000px; /* kill this later */
-    /*background-color: black;*/
+    background-color: rgb(134, 134, 134);
 }
 
 a {
@@ -104,7 +104,7 @@ footer {
 main {
 /*    position: relative;
     top: 80px;*/
-    background-color: rgb(134, 134, 134);
+    background-color: rgb(200, 200, 200);
     overflow: hidden;
     min-height: 600px;
 }
