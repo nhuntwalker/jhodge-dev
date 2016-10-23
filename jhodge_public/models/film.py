@@ -25,6 +25,7 @@ class Film(Base):
     awards = Column(Unicode)
     genre = Column(Unicode)
     film_type = Column(Unicode)
+    credit = Column(Unicode)
 
 
 

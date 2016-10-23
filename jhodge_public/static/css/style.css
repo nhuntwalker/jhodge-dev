@@ -326,7 +326,7 @@ main {
 }
 .media-excerpt,
 .film-excerpt {
-    margin-top: 20px;
+    margin-top: 12px;
 }
 .media-excerpt p,
 .film-excerpt p {
@@ -660,13 +660,22 @@ fieldset:first-child {
     font-size: 1.2em;
 }
 
-#festival-awards {
-    margin-bottom: 15px;
+.inline-item {
+  display: inline;
+}
+.film-details {
+    text-align: center;
+    line-height: 1.5em;
+    margin: 20px auto 30px;
 }
 
+#festival-awards {
+    max-width: 80%;
+    margin: 30px auto;
+}
 #festival-awards img {
     height: 100px;
-    padding: 0 10px;
+    margin: 10px;
 }
 
 .film-description {

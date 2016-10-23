@@ -11,20 +11,48 @@
     <section id="content">
         <div class="big-content black">
             <h1>{{ the_film.title }}</h1>
+            <div class="film-details">
+              <ul>
+                <li>Genre:
+                  {% set genrelist = the_film.genre.split('||') %}
+                  {% for genre in genrelist %}
+                    {% if loop.last %}
+                      {{ genre }}
+                    {% else %}
+                      {{ genre }},
+                    {% endif %}
+                  {% endfor %}
+                </li>
+                <li>Type: {{ the_film.film_type }}</li>
+                <li>Release: {{ the_film.release_date }}</li>
+              </ul>
+              <ul>
+                {% set creditlist = the_film.credit.split('||') %}
+                    {% for credit in creditlist %}
+                    <li class="inline-item">
+                      {% if loop.last %}
+                        {{ credit }}
+                      {% else %}
+                        {{ credit }} /
+                      {% endif %}
+                    </li>
+                    {% endfor %}
+              </ul>
+            </div>
             <div class="horizontal-bar white"></div>
             <div class="media-meta film">
-                <div id="festival-awards">
-                    {% if awards %}
-                        {% for award in awards %}
-                            {% if award %}
-                                <img src="{{ request.static_path('jhodge_public:static/MEDIA/')}}{{ award }}" />
-                            {% endif %}
-                        {% endfor %}
-                   {% endif %}
-                </div>
-                <ul>
-                    <li>Watch the trailer <a href="{{ the_film.trailer }}" target="_blank"><i class="fa fa-film" aria-hidden="true"></i></a></li>
-                </ul>
+              <div id="festival-awards">
+                  {% if awards %}
+                      {% for award in awards %}
+                          {% if award %}
+                              <img src="{{ request.static_path('jhodge_public:static/MEDIA/')}}{{ award }}" />
+                          {% endif %}
+                      {% endfor %}
+                 {% endif %}
+              </div>
+              <ul>
+                  <li>Watch the trailer <a href="{{ the_film.trailer }}" target="_blank"><i class="fa fa-film" aria-hidden="true"></i></a></li>
+              </ul>
             </div>
             <article class="film-description">
                 {% for paragraph in full_text %}

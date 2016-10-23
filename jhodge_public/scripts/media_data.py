@@ -41,9 +41,11 @@ Still haunted by the experience as an adult, Eric decides that the only way to
         "Urban World Film Festival",
         "The Damn Film Series",
         "Baltimore International Black Film Festival",
+        "Baltimore International Black Film Festival Audience Award"
     ],
     "genre": ["Drama", "Inspirational"],
     "film_type": "Short Film",
+    "credit": ["Director", "Producer", "Editor"]
 },
     {
     "title": "The Kind Ones",
@@ -84,6 +86,7 @@ between a thriller and a horror movie. Fueled by a deliberate
     ],
     "genre": ["Horror", "Suspense", "Thriller"],
     "film_type": "Short Film",
+    "credit": ["Director", "Writer", "Producer", "Editor"]
 }, {
     "title": "The Knockout Game",
     "release_date": 2017,
@@ -149,6 +152,7 @@ between a thriller and a horror movie. Fueled by a deliberate
     "awards": [],
     "genre": ["Urban", "Crime", "Thriller"],
     "film_type": "Short Film",
+    "credit": ["Director", "Writer", "Editor"]
 }, {
     "title": "Modern Grace",
     "release_date": 2016,
@@ -185,6 +189,7 @@ between a thriller and a horror movie. Fueled by a deliberate
     "awards": [],
     "genre": ["Drama", "Christian", "Faith-Based"],
     "film_type": "Web Series, Documentary",
+    "credit": ["Director", "Editor"]
 }, {
     "title": "The Last Doctor",
     "release_date": 2016,
@@ -221,6 +226,7 @@ while teaching them the...""",
     "awards": [],
     "genre": ["Drama"],
     "film_type": "Documentary Series",
+    "credit": ["Director", "Editor"]
 }, {
     "title": "Threading Needles",
     "release_date": 2011,
@@ -253,12 +259,13 @@ a white cop who despises what the couple represents and a black cop who consider
     "trailer": "https://vimeo.com/22107242",
     "screenshot": "threading_needles.png",
     "awards": [
-        # "Los Angeles Movie Awards",
-        # "East Harlem International Film Festival",
-        # "Hollywood Black Film Festival"
+        "Los Angeles Movie Awards",
+        "East Harlem International Film Festival",
+        "Hollywood Black Film Festival"
     ],
     "genre": ["Drama", "Thriller", "Crime"],
     "film_type": "Feature Film",
+    "credit": ["Director", "Co-Producer", "Editor"]
 }]
 
 WRITINGS = [
@@ -495,9 +502,12 @@ AWARDS = {
     "Martha's Vineyard African American Film Festival": "laurels/mvaaff_2016.png",
     "Urban World Film Festival": "laurels/urban_world_2016.png",
     "Baltimore International Black Film Festival": "laurels/bibff_2016.png",
+    "Baltimore International Black Film Festival Audience Award": "laurels/bibff_audience_2016.png",
     "NYC Horror Film Festival": "laurels/nyc_horror_2016.png",
     "The Damn Film Series": "laurels/damn_film_series_2016_white.png",
     "Cannes Short Film Corner": "laurels/cannes_2016.png",
     "Big Apple Film Festival": "laurels/baff_2016.png",
-
+    "East Harlem International Film Festival": "laurels/eastharleminternationalff_2012.png",
+    "Los Angeles Movie Awards": "laurels/lama_2011.png",
+    "Hollywood Black Film Festival": "laurels/hbff_2011.png",
 }

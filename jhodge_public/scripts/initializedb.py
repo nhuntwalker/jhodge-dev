@@ -71,7 +71,8 @@ def main(argv=sys.argv):
                 screenshot=film["screenshot"],
                 awards="||".join(film_awards),
                 genre="||".join(film["genre"]),
-                film_type=film["film_type"]
+                film_type=film["film_type"],
+                credit="||".join(film["credit"])
             )
             add_these.append(new_film)
 
