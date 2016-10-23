@@ -48,7 +48,18 @@
                     <div class="horizontal-bar white"></div>
                     <div class="media-meta full">
                         <ul>
-                            <li>{{ film.production }}</li>
+                          {% set genrelist = film.genre.split('||') %}
+                            <li>
+                              {% for genre in genrelist %}
+                                {% if loop.last %}
+                                  {{ genre }}
+                                {% else %}
+                                  {{ genre }},
+                                {% endif %}
+                              {% endfor %}
+                            </li>
+                            <li>{{ film.film_type }}</li>
+                            <li>{{ film.release_date }}</li>
                         </ul>
                     </div>
                     <div class="film-excerpt">

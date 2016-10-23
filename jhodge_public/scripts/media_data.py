@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 FILMS = [{
     "title": "The Jump",
-    "release_date": "",
+    "release_date": 2016,
     "production": "Primal Links Media",
     "id": 9999,
     "slug": "the-jump",
@@ -41,11 +41,13 @@ Still haunted by the experience as an adult, Eric decides that the only way to
         "Urban World Film Festival",
         "The Damn Film Series",
         "Baltimore International Black Film Festival",
-    ]
+    ],
+    "genre": ["Drama", "Inspirational"],
+    "film_type": "Short Film",
 },
     {
     "title": "The Kind Ones",
-    "release_date": "Coming 2016",
+    "release_date": 2016,
     "production": "Primal Links Media",
     "id": 8246,
     "slug": "kind-ones",
@@ -79,10 +81,12 @@ between a thriller and a horror movie. Fueled by a deliberate
         "Cannes Short Film Corner",
         "Big Apple Film Festival",
         "NYC Horror Film Festival"
-    ]
+    ],
+    "genre": ["Horror", "Suspense", "Thriller"],
+    "film_type": "Short Film",
 }, {
     "title": "The Knockout Game",
-    "release_date": "December 12, 2015",
+    "release_date": 2017,
     "production": "Primal Links Media",
     "id": 3707,
     "slug": "knockout-game",
@@ -142,10 +146,12 @@ between a thriller and a horror movie. Fueled by a deliberate
     "trailer": "https://vimeo.com/177583802",
     "screenshot": "knockout_game_cover.jpg",
     "mini_screenshot": "knockout_game_cover.jpg",
-    "awards": []
+    "awards": [],
+    "genre": ["Urban", "Crime", "Thriller"],
+    "film_type": "Short Film",
 }, {
     "title": "Modern Grace",
-    "release_date": "February 2, 2016",
+    "release_date": 2016,
     "production": "Primal Links Media",
     "id": 7872,
     "slug": "modern-grace",
@@ -176,10 +182,12 @@ between a thriller and a horror movie. Fueled by a deliberate
     "trailer": "https://vimeo.com/153945224",
     "screenshot": "modern_grace_cover.png",
     "mini_screenshot": "modern_grace_cover.png",
-    "awards": []
+    "awards": [],
+    "genre": ["Drama", "Christian", "Faith-Based"],
+    "film_type": "Web Series, Documentary",
 }, {
     "title": "The Last Doctor",
-    "release_date": "",
+    "release_date": 2016,
     "production": "Primal Links Media",
     "id": 1234,
     "slug": "last-doctor",
@@ -210,10 +218,12 @@ while teaching them the...""",
  face, life itself is the reward.""",
     "trailer": "https://vimeo.com/156430872",
     "screenshot": "the_last_doctor2.jpg",
-    "awards": []
+    "awards": [],
+    "genre": ["Drama"],
+    "film_type": "Documentary Series",
 }, {
     "title": "Threading Needles",
-    "release_date": "February 2, 2011",
+    "release_date": 2011,
     "production": "Primal Links Media",
     "id": 4321,
     "slug": "threading-needles",
@@ -246,7 +256,9 @@ a white cop who despises what the couple represents and a black cop who consider
         # "Los Angeles Movie Awards",
         # "East Harlem International Film Festival",
         # "Hollywood Black Film Festival"
-    ]
+    ],
+    "genre": ["Drama", "Thriller", "Crime"],
+    "film_type": "Feature Film",
 }]
 
 WRITINGS = [

@@ -3,7 +3,7 @@ from sqlalchemy import (
     Index,
     Integer,
     Unicode,
-    Date
+    Date,
 )
 
 from .meta import Base
@@ -13,7 +13,7 @@ class Film(Base):
     __tablename__ = 'films'
     id = Column(Integer, primary_key=True)
     title = Column(Unicode)
-    release_date = Column(Unicode)
+    release_date = Column(Integer)
     production = Column(Unicode)
     slug = Column(Unicode)
     excerpt = Column(Unicode)
@@ -23,6 +23,9 @@ class Film(Base):
     trailer = Column(Unicode)
     screenshot = Column(Unicode)
     awards = Column(Unicode)
+    genre = Column(Unicode)
+    film_type = Column(Unicode)
+
 
 
 Index('film_idx', Film.title, unique=True, mysql_length=255)

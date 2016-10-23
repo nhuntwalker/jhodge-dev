@@ -69,7 +69,9 @@ def main(argv=sys.argv):
                 full_text="\r\n".join(film["full_text"]),
                 trailer=film["trailer"],
                 screenshot=film["screenshot"],
-                awards="||".join(film_awards)
+                awards="||".join(film_awards),
+                genre="||".join(film["genre"]),
+                film_type=film["film_type"]
             )
             add_these.append(new_film)
 
