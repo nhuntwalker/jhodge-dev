@@ -146,7 +146,7 @@ between a thriller and a horror movie. Fueled by a deliberate
     "home_text": """A disturbing and Brutal game amongst teens, targeting
      whites and immigrants in Inner city communities. Gregory wants to play.
      He wants to get in good with G-Life's gang. He wants...""",
-    "trailer": "https://vimeo.com/177583802",
+    "trailer": "https://vimeo.com/183038746",
     "screenshot": "knockout_game_cover.jpg",
     "mini_screenshot": "knockout_game_cover.jpg",
     "awards": [],
