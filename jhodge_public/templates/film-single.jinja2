@@ -4,9 +4,6 @@
 <main>
     <section id="film-banner">
         <img src="{{ the_film.screenshot_url }}" />
-{#         <div class="video-btn">
-            <img src="{{ request.static_path('jhodge_public:static/STATIC/video-play-button.png') }}" />
-        </div> #}
     </section>
     <section id="content">
         <div class="big-content black">
@@ -45,7 +42,7 @@
                   {% if awards %}
                       {% for award in awards %}
                           {% if award %}
-                              <img src="{{ request.static_path('jhodge_public:static/MEDIA/')}}{{ award }}" />
+                              <img src="{{gh_media}}{{ award }}" />
                           {% endif %}
                       {% endfor %}
                  {% endif %}

@@ -12,6 +12,9 @@ from ..models import (
     get_engine
 )
 
+GH_MEDIA = "https://github.com/nhuntwalker/jhodge-dev/tree/master/jhodge_public/static/MEDIA/"
+GH_STATIC = "https://github.com/nhuntwalker/jhodge-dev/tree/master/jhodge_public/static/STATIC_FILES/"
+
 
 def get_session(request):
     """Start a session for model management."""
@@ -39,7 +42,9 @@ def get_media_path(request, media_path):
 def home(request):
     """Display data to the Home page."""
     return {
-        'home': True,
+        'home': True, ,
+        'gh_media': GH_MEDIA,
+        'gh_static': GH_STATIC
     }
 
 
@@ -49,7 +54,9 @@ def about(request):
     """Display data to the About page."""
     return {
         'project': 'jhodge_public',
-        'about': True
+        'about': True,
+        'gh_media': GH_MEDIA,
+        'gh_static': GH_STATIC
     }
 
 
@@ -78,7 +85,9 @@ def contact(request):
     return {
         'project': 'jhodge_public',
         'msg': msg,
-        'contact': True
+        'contact': True,
+        'gh_media': GH_MEDIA,
+        'gh_static': GH_STATIC
     }
 
 
@@ -87,11 +96,12 @@ def contact(request):
 def films(request):
     """Display data to the Film page."""
     films = request.dbsession.query(Film).all()
-    slider_titles = ["the jump", "the kind ones", "the knockout game", "threading needles"]
+    slider_titles = [
+        "the jump", "the kind ones", "the knockout game", "threading needles"]
     slider_films = []
 
     for film in films:
-        film.screenshot_url = get_media_path(request, film.screenshot)
+        film.screenshot_url = GH_MEDIA + film.screenshot
         if film.title.lower() in slider_titles:
             slider_films.append(film)
 
@@ -99,7 +109,9 @@ def films(request):
         'project': 'jhodge_public',
         'film': True,
         'all_films': films,
-        'slider_films': slider_films
+        'slider_films': slider_films,
+        'gh_media': GH_MEDIA,
+        'gh_static': GH_STATIC
     }
 
 
@@ -108,7 +120,7 @@ def films(request):
 def film_single(request):
     """Display data for an individual film."""
     film = request.dbsession.query(Film).get(request.matchdict["id"])
-    film.screenshot_url = get_media_path(request, film.screenshot)
+    film.screenshot_url = GH_MEDIA + film.screenshot
     full_text = film.full_text.split("\r\n")
     awards = film.awards.split("||")
     # import pdb; pdb.set_trace()
@@ -118,7 +130,9 @@ def film_single(request):
         'film': True,
         'the_film': film,
         "full_text": full_text,
-        "awards": awards
+        "awards": awards,
+        'gh_media': GH_MEDIA,
+        'gh_static': GH_STATIC
     }
 
 
