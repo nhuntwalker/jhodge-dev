@@ -12,8 +12,8 @@ from ..models import (
     get_engine
 )
 
-GH_MEDIA = "https://github.com/nhuntwalker/jhodge-dev/tree/master/jhodge_public/static/MEDIA/"
-GH_STATIC = "https://github.com/nhuntwalker/jhodge-dev/tree/master/jhodge_public/static/STATIC_FILES/"
+GH_MEDIA = "https://raw.githubusercontent.com/nhuntwalker/jhodge-dev/master/jhodge_public/static/MEDIA/"
+GH_STATIC = "https://raw.githubusercontent.com/nhuntwalker/jhodge-dev/master/jhodge_public/static/STATIC_FILES/"
 
 
 def get_session(request):
