@@ -42,7 +42,7 @@ def get_media_path(request, media_path):
 def home(request):
     """Display data to the Home page."""
     return {
-        'home': True, ,
+        'home': True,
         'gh_media': GH_MEDIA,
         'gh_static': GH_STATIC
     }
