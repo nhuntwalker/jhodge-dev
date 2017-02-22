@@ -14,7 +14,9 @@ FILMS = [{
  to get back into the water. If he can face his fears 30-feet above the water, then
  he'll rediscover his magic--and realize he's had the power to conquer his fears
  all along.""",
-        """"""
+        '''"I wanted to show that no matter the pain or the shame or the circumstances
+ that had distanced you from your dream, with a little courage you could <em>jump</em>
+ right back in to your joy, at any age. ~ Jamal Hodge"'''
     ],
     "excerpt": """As a child Eric believed that the water was magical.
  In the water there was nothing...""",
@@ -41,7 +43,10 @@ Still haunted by the experience as an adult, Eric decides that the only way to
         "Urban World Film Festival",
         "The Damn Film Series",
         "Baltimore International Black Film Festival",
-        "Baltimore International Black Film Festival Audience Award"
+        "Baltimore International Black Film Festival Audience Award",
+        "Universal Eyes 2017",
+        "Hollywood Black Film Festival 2017",
+        "Love Film Screenings 2017"
     ],
     "genre": ["Drama", "Inspirational"],
     "film_type": "Short Film",
@@ -82,7 +87,8 @@ between a thriller and a horror movie. Fueled by a deliberate
     "awards": [
         "Cannes Short Film Corner",
         "Big Apple Film Festival",
-        "NYC Horror Film Festival"
+        "NYC Horror Film Festival",
+        "Spotlight Horror Film Awards 2016"
     ],
     "genre": ["Horror", "Suspense", "Thriller"],
     "film_type": "Short Film",
@@ -510,4 +516,8 @@ AWARDS = {
     "East Harlem International Film Festival": "laurels/eastharleminternationalff_2012.png",
     "Los Angeles Movie Awards": "laurels/lama_2011.png",
     "Hollywood Black Film Festival": "laurels/hbff_2011.png",
+    "Universal Eyes 2017": "laurels/universal_eyes_2017.png",
+    "Hollywood Black Film Festival 2017": "laurels/hbff_2017.png",
+    "Love Film Screenings 2017": "laurels/lovefilm_2017.png",
+    "Spotlight Horror Film Awards 2016": "laurels/spotlight_horror_2016.png"
 }

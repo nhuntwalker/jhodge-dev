@@ -54,8 +54,7 @@ function cycleItems(time){
     }
     setTimeout(function(){
       autoSlide = setInterval(startSlider, time);
-    }, 1000
-    );
+    }, 1000);
   });
 }
 
