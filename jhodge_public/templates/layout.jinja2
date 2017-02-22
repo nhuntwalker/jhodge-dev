@@ -14,7 +14,7 @@
             <title>Jamal Hodge | Film</title>
         {% elif about %}
             <title>Jamal Hodge | About</title>
-        {% elif awards %}
+        {% elif awards_list %}
             <title>Jamal Hodge | Awards</title>
         {% elif writing %}
             <title>Jamal Hodge | Writing</title>
@@ -45,7 +45,7 @@
                 <a href="{{ request.route_url('about') }}"><li>About</li></a>
             {% endif %}
 
-            {% if awards %}
+            {% if awards_list %}
                 <a href="{{ request.route_url('awards_list') }}"><li class="active">Awards</li></a>
             {% else %}
                 <a href="{{ request.route_url('awards_list') }}"><li>Awards</li></a>

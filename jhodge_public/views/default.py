@@ -176,7 +176,7 @@ def awards(request):
     """Award listing view."""
     return {
         'gh_media': GH_MEDIA,
-        'awards': True
+        'awards_list': True
     }
 
 
