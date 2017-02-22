@@ -44,9 +44,9 @@ Still haunted by the experience as an adult, Eric decides that the only way to
         "The Damn Film Series",
         "Baltimore International Black Film Festival",
         "Baltimore International Black Film Festival Audience Award",
-        "Universal Eyes 2017",
-        "Hollywood Black Film Festival 2017",
-        "Love Film Screenings 2017"
+        # "Universal Eyes 2017",
+        # "Hollywood Black Film Festival 2017",
+        # "Love Film Screenings 2017"
     ],
     "genre": ["Drama", "Inspirational"],
     "film_type": "Short Film",
