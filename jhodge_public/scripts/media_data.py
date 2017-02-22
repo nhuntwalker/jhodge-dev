@@ -16,7 +16,7 @@ FILMS = [{
  all along.""",
         '''"I wanted to show that no matter the pain or the shame or the circumstances
  that had distanced you from your dream, with a little courage you could <em>jump</em>
- right back in to your joy, at any age. ~ Jamal Hodge"'''
+ right back in to your joy, at any age. ~Jamal Hodge"'''
     ],
     "excerpt": """As a child Eric believed that the water was magical.
  In the water there was nothing...""",
