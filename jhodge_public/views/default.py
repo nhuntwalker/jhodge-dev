@@ -170,6 +170,15 @@ def writing_single(request):
     }
 
 
+@view_config(route_name="awards_list",
+             renderer="../templates/awards.jinja2")
+def awards(request):
+    """Award listing view."""
+    return {
+        'gh_media': GH_MEDIA,
+    }
+
+
 # @view_config(route_name='create_film',
 #              renderer='../templates/film-create.jinja2')
 # def create_film(request):

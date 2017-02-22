@@ -1,0 +1,29 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+<main>
+    <section id="awards-banner">
+        <img src="{{gh_media}}award_banner.JPG" />
+    </section>
+    <section id="content">
+        <div class="big-content black">
+          <h1>Awards and Recognition</h1>
+          <h2>Film: The Jump<a href="{{ request.route_url('/film/1') }}" target="_blank"><i class="fa fa-external-link news-link" aria-hidden="true"></i></a></h2>
+          <ul>
+            <li>
+              <p><strong>Festival: The Baltimore International Film Festival</strong></p>
+              <p><strong>Award: Audience Choice Award, 2016</strong></p>
+            </li>
+            <li>
+              <p><strong>Festival: The Blackstar Film Festival</strong></p>
+              <p><strong>Award: Audience Choice Award, 2016</strong></p>
+            </li>
+            <li>
+              <p><strong>Festival: The Damn! Film Series</strong></p>
+              <p><strong>Award: Best Director, 2016</strong></p>
+            </li>
+          </ul>
+        </div>
+    </section>
+</main>
+{% endblock content %}
