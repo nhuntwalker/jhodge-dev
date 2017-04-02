@@ -1,6 +1,6 @@
 def includeme(config):
     """Housing all of the routes for our Pyramid app."""
-    config.add_static_view('static', 'static', cache_max_age=3600)
+    config.add_static_view('static', 'static', cache_max_age=0)
     config.add_route('home', '/')
     config.add_route('about', '/about')
     config.add_route('contact', '/contact')

@@ -15,9 +15,7 @@
                     <div class="slider-description">
                         <h2>{{ film.title }}</h2>
                         <div class="horizontal-bar white"></div>
-                        <p>
-                            {{ film.slider_text | safe }}
-                        </p>
+                        {{ film.slider_text | safe }}
                         <button class="red-btn">
                             <a href="{{ request.route_url('film_single', id=film.id) }}">More</a>
                         </button>

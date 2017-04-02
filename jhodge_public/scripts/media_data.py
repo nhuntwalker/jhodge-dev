@@ -34,8 +34,8 @@ Still haunted by the experience as an adult, Eric decides that the only way to
  In the water there was nothing he couldn't do. But a life-changing encounter
  with bullies at a pool plants seeds of self-doubt.""",
     "trailer": "http://www.thejumpshortfilm.com/",
-    "screenshot": "the_jump_cover2.jpg",
-    "mini_screenshot": "the_jump_cover2.jpg",
+    "screenshot": "the_jump_cover3.jpg",
+    "mini_screenshot": "the_jump_cover3.jpg",
     "awards": [
         # "Black Star Film Festival",
         "Short Audience Award from Black Star Film Festival",
@@ -153,8 +153,8 @@ between a thriller and a horror movie. Fueled by a deliberate
      whites and immigrants in Inner city communities. Gregory wants to play.
      He wants to get in good with G-Life's gang. He wants...""",
     "trailer": "https://vimeo.com/183038746",
-    "screenshot": "knockout_game_cover.jpg",
-    "mini_screenshot": "knockout_game_cover.jpg",
+    "screenshot": "knockout_game_cover2.jpg",
+    "mini_screenshot": "knockout_game_cover2.jpg",
     "awards": [
         "Cannes Short Film Corner 2017",
     ],
