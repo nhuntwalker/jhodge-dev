@@ -520,7 +520,8 @@ main {
 }
 #about-banner img {
     position: relative;
-    top: -40%;
+    /* top: -40%; */
+    height: 100%;
 }
 
 .big-content {
