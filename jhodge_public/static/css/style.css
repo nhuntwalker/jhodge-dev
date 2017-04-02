@@ -359,6 +359,8 @@ main {
     position: relative;
     left: -10%;
     top: -10%;
+    overflow: hidden;
+    cursor: pointer;
 }
 .film-list-description {
     width: 30%;
