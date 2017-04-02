@@ -155,7 +155,9 @@ between a thriller and a horror movie. Fueled by a deliberate
     "trailer": "https://vimeo.com/183038746",
     "screenshot": "knockout_game_cover.jpg",
     "mini_screenshot": "knockout_game_cover.jpg",
-    "awards": [],
+    "awards": [
+        "Cannes Short Film Corner 2017",
+    ],
     "genre": ["Urban", "Crime", "Thriller"],
     "film_type": "Short Film",
     "credit": ["Director", "Writer", "Editor"]
@@ -512,6 +514,7 @@ AWARDS = {
     "NYC Horror Film Festival": "laurels/nyc_horror_2016.png",
     "The Damn Film Series": "laurels/damn_film_series_2016_white.png",
     "Cannes Short Film Corner": "laurels/cannes_2016.png",
+    "Cannes Short Film Corner 2017": "laurels/cannes_2017.png",
     "Big Apple Film Festival": "laurels/baff_2016.png",
     "East Harlem International Film Festival": "laurels/eastharleminternationalff_2012.png",
     "Los Angeles Movie Awards": "laurels/lama_2011.png",

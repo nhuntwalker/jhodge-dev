@@ -157,6 +157,14 @@ main {
     margin-left: 8px;
 }
 
+#news-content {
+    overflow-y: scroll;
+    height: 270px;
+}
+#news-list {
+    margin: 0 25px;
+}
+
 #reel {
     text-align: center;
     padding: 10px 0 20px;
@@ -538,11 +546,22 @@ main {
     margin: 0 2% 0 3%;
     float: left;
 }
-.half-width p {
+.full-width {
+    width: 80%;
+    margin: 0 auto;
+}
+.half-width p,
+.full-width p {
     line-height: 1.4em;
     margin-bottom: 20px;
 }
 
+.full-width strong {
+    font-weight: 700;
+}
+.full-width em {
+    font-style: italic;
+}
 /* CONTACT */
 #contact-banner {
     height: 500px;
