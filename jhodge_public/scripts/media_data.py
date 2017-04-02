@@ -46,7 +46,8 @@ Still haunted by the experience as an adult, Eric decides that the only way to
         "Baltimore International Black Film Festival Audience Award",
         "Universal Eyes 2017",
         "Hollywood Black Film Festival 2017",
-        "Love Film Screenings 2017"
+        "Love Film Screenings 2017",
+        "The People's Film Festival 2017"
     ],
     "genre": ["Drama", "Inspirational"],
     "film_type": "Short Film",
@@ -153,8 +154,8 @@ between a thriller and a horror movie. Fueled by a deliberate
      whites and immigrants in Inner city communities. Gregory wants to play.
      He wants to get in good with G-Life's gang. He wants...""",
     "trailer": "https://vimeo.com/183038746",
-    "screenshot": "knockout_game_cover2.jpg",
-    "mini_screenshot": "knockout_game_cover2.jpg",
+    "screenshot": "knockout_game_cover.jpg",
+    "mini_screenshot": "knockout_game_cover.jpg",
     "awards": [
         "Cannes Short Film Corner 2017",
     ],
@@ -505,22 +506,23 @@ WRITINGS = [
 ]
 
 AWARDS = {
-    "Black Star Film Festival": "laurels/bsff_2016.png",
-    "Short Audience Award from Black Star Film Festival": "laurels/bsff_2016_audience_short_narr.png",
-    "Martha's Vineyard African American Film Festival": "laurels/mvaaff_2016.png",
-    "Urban World Film Festival": "laurels/urban_world_2016.png",
     "Baltimore International Black Film Festival": "laurels/bibff_2016.png",
     "Baltimore International Black Film Festival Audience Award": "laurels/bibff_audience_2016.png",
-    "NYC Horror Film Festival": "laurels/nyc_horror_2016.png",
-    "The Damn Film Series": "laurels/damn_film_series_2016_white.png",
+    "Big Apple Film Festival": "laurels/baff_2016.png",
+    "Black Star Film Festival": "laurels/bsff_2016.png",
     "Cannes Short Film Corner": "laurels/cannes_2016.png",
     "Cannes Short Film Corner 2017": "laurels/cannes_2017.png",
-    "Big Apple Film Festival": "laurels/baff_2016.png",
+    "The Damn Film Series": "laurels/damn_film_series_2016_white.png",
     "East Harlem International Film Festival": "laurels/eastharleminternationalff_2012.png",
-    "Los Angeles Movie Awards": "laurels/lama_2011.png",
     "Hollywood Black Film Festival": "laurels/hbff_2011.png",
-    "Universal Eyes 2017": "laurels/universal_eyes_2017.png",
     "Hollywood Black Film Festival 2017": "laurels/hbff_2017.png",
+    "Los Angeles Movie Awards": "laurels/lama_2011.png",
     "Love Film Screenings 2017": "laurels/lovefilm_2017.png",
-    "Spotlight Horror Film Awards 2016": "laurels/spotlight_horror_2016.png"
+    "Martha's Vineyard African American Film Festival": "laurels/mvaaff_2016.png",
+    "NYC Horror Film Festival": "laurels/nyc_horror_2016.png",
+    "The People's Film Festival 2017": "laurels/tpff_2017.png",
+    "Short Audience Award from Black Star Film Festival": "laurels/bsff_2016_audience_short_narr.png",
+    "Spotlight Horror Film Awards 2016": "laurels/spotlight_horror_2016.png",
+    "Urban World Film Festival": "laurels/urban_world_2016.png",
+    "Universal Eyes 2017": "laurels/universal_eyes_2017.png",
 }
