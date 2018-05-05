@@ -5,3 +5,4 @@
 jhodge_public/static/ASSETS/wetransfer*
 jhodge_public/__pycache__
 *.patch
+ENV
